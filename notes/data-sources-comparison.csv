@@ -1,0 +1,52 @@
+﻿State,OpenElex status?,V.E.S.T. status?,NYT status?,Down-ballot,V.E.S.T. 2018?,Down-ballot 2018
+AL,✅,⚠️ Distributed absentee/provisional by reported in-person vote in precincts (orig reported by county),❌ absentee and provisional results are reported countywide,Sen20,Y,Gov18
+AK,✅,⚠️ Distributed early/absentee/provisional by reported in-person vote in precincts (orig reported by state house district),"❌ absentee, early, and provisional results are reported district-wide","Sen20, HouseAtLg20",Y,"Gov18, HouseAtLg18"
+AZ,✅ (partial),✅,✅,SenSpecial20,Y,"Sen18, Gov18"
+AR,✅,⚠️ Distributed Green County results based on district slices for various down-ticket boundaries,⚠️ we could not generate or procure precinct maps for Jefferson County or Phillips County,Sen20,Y,Gov18
+CA,💬 (partial),,✅,,N,
+CO,✅,⚠️Las Animas County precincts needed GIS revisions.,✅,Sen20,Y,Gov18
+CT,✅,!! Added on Aug. 17,⚠️ township-level results rather than precinct-level results,,Y,
+DE,❓,⚠️ Distributed UOCAVA votes by reported in-person vote in precincts (orig reported by county),✅,"Sen20, Gov20",Y,"Sen18, HouseAtLg18"
+DC,❓,✅,✅,"Sen20, DelAtLg20",Y,"DelAtLg18, Mayor18"
+FL,✅ (partial),⚠️ Votes like UOCAVA distributed by reported vote in precincts (orig reported by county),✅,-,Y,"Sen18, Gov18"
+GA,✅ (all),⚠️ USE RECOUNT NUMBERS. All of Chattahoochee County is merged (single reporting unit).,✅,Sen20 (SenSpecial20 was all-party race),Y,Gov18
+HI,✅ (all),✅,✅,-,Y,"Sen18, Gov18"
+ID,❓,⚠️ Distributed absentee by reported in-person vote in precincts (orig reported by county),⚠️ many counties report absentee votes countywide,Sen20,Y,Gov18
+IL,✅,⚠️ Small # of countywide votes were distributed by reported total vote in precincts,✅,Sen20,Y,Gov18
+IN,✅,!! Added on Sept. 10,⚠️ state publishes machine-readable precinct results for only about half of counties,,Y,Sen18
+IA,✅ (all),✅,⚠️ Scott County does not provide machine-readable precinct-level data,Sen20,Y,Gov18
+KS,✅,✅,✅,Sen20,Y,Gov18
+KY,❌,,⚠️ only certain counties report results at the precinct level,,N,
+LA,✅,"⚠️ ""Alpha Precincts"" in 10 parishes / Distributed early by reported in-person vote in precincts (orig reported by parish)",❌ early and provisional results are reported countywide,- SenSpecial20 was all-party race),Y,-
+ME,✅,"⚠️ Some weirdness with merged municipalities, should be OK though",⚠️ township-level results rather than precinct-level results,Sen20,Y,"Sen18, Gov18"
+MD,✅,!! Added on Sept. 10,✅,,Y,Gov18
+MA,✅,!! Added on Aug. 25,✅,,Y,"Sen18, Gov18"
+MI,✅,"⚠️ A few proportional changes, should be OK though",⚠️ data collection not yet complete,Sen20,Y,Gov18
+MN,✅,✅,✅,Sen20,Y,"Sen18, SenSpecial18, Gov18"
+MS,✅,,✅,,N,
+MO,✅,!! Added on Aug. 25,⚠️ almost all counties report absentee votes countywide,,Y,Sen18
+MT,✅,⚠️ Treasure County had all precincts merged pre-election,✅,"Sen20, HouseAtLg20, Gov20",Y,"Sen18, HouseAtLg18"
+NE,✅,⚠️ Distributed various county-wide vote types by reported total vote in precincts (types varied by county),✅,Sen20,Y,"Sen18, Gov18"
+NV,✅,⚠️ Distributed presidential-only ballots by reported vote in precincts (orig reported by county),✅,-,Y,"Sen18, Gov18"
+NH,✅,✅,⚠️ township-level results rather than precinct-level results,"Sen20, Gov20",Y,Gov18
+NJ,💬 (unknown type),,⚠️ township-level results rather than precinct-level results,,Y,Sen18
+NM,✅,,✅,,Y,"Sen18, Gov18"
+NY,✅ (partial),,✅,,N,
+NC,✅ (all),⚠️ Small # of countywide votes were distributed by reported total vote in precincts,✅,"Sen20, Gov20",Y,-
+ND,✅,✅,✅,"HouseAtLg20, Gov20",Y,"Sen18, HouseAtLg18"
+OH,✅,✅,✅,-,Y,"Sen18, Gov18"
+OK,✅ (all),⚠️ Distributed some early in by reported in-person vote in precincts (orig reported by county in Tulsa and Oklahoma counties),⚠️ Tulsa County and Oklahoma County report absentee ballots countywide,Sen20,Y,Gov18
+OR,✅,,✅,,N,
+PA,✅ (partial),,✅,,Y,"Sen18, Gov18"
+RI,✅ (all),⚠️ Distributed some votes by reported vote in precincts (orig reported by congressional district),⚠️ township-level results rather than precinct-level results,Sen20,Y,"Sen18, Gov18"
+SC,✅ (all),"⚠️ Distributed provisional/""failsafe"" ballots by reported vote in precincts (orig reported by county)",✅,Sen20,Y,Gov18
+SD,✅,,"⚠️ three counties report absentee ballots countywide, and seven counties report all votes countywide",,Y,Gov18
+TN,✅,!! Added on Aug. 25,⚠️ Davidson County reports absentee ballots countywide,,N,
+TX,✅ (partial),✅,✅,Sen20,Y,"Sen18, Gov18"
+UT,✅,✅,✅,Gov20,Y,Sen18
+VT,✅,"⚠️ Some weirdness with merged municipalities, should be OK though",⚠️ township-level results rather than precinct-level results,"HouseAtLg20, Gov20",Y,"Sen18, HouseAtLg18, Gov18"
+VA,✅ (all),,❌ provisional and absentee votes are reported countywide,,Y,Sen18
+WA,✅,!! Added on Aug. 25,✅,,Y,Sen18
+WV,✅,,✅,,N,
+WI,✅,✅,✅,-,Y,"Sen18, Gov18"
+WY,✅,✅,✅,"Sen20, HouseAtLg20",Y,"Sen18, HouseAtLg18, Gov18"

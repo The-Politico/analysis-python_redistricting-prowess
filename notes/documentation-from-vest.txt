@@ -1,0 +1,1668 @@
+2020 Election Results by Precinct
+
+Vote Column Label Format
+------------------------
+Columns reporting votes follow a standard label pattern. One example is:
+G20PRERTRU
+The first character is G for a general election, C for recount results, P for a primary, S for a special, and R for a runoff.
+Characters 2 and 3 are the year of the election.
+Characters 4-6 represent the office type (see list below).
+Character 7 represents the party of the candidate.
+Characters 8-10 are the first three letters of the candidate's last name.
+
+Office Codes
+
+AGR - Agriculture Commissioner
+ATG - Attorney General
+AUD - Auditor
+COC - Corporation Commissioner
+COU - City Council Member
+DEL - Delegate to the U.S. House
+GOV - Governor
+H## - U.S. House, where ## is the district number. AL: at large.
+INS - Insurance Commissioner
+LAB - Labor Commissioner
+LAN - Commissioner of Public Lands
+LTG - Lieutenant Governor
+PRE - President
+PSC - Public Service Commissioner
+RRC - Railroad Commissioner
+SAC - State Appeals Court (in AL: Civil Appeals)
+SCC - State Court of Criminal Appeals
+SOS - Secretary of State
+SSC - State Supreme Court
+SPI - Superintendent of Public Instruction
+TRE - Treasurer
+USS - U.S. Senate
+
+Party Codes
+D and R will always represent Democrat and Republican, respectively.
+See the state-specific notes for the remaining codes used in a particular file; note that third-party candidates may appear on the ballot under different party labels in different states.
+
+
+Alabama
+-------
+Election results from the Alabama Secretary of State Elections Division (https://www.sos.alabama.gov/alabama-votes/voter/election-data).
+
+Absentee and provisional ballots were reported countywide in all counties. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precinct shapefiles initially from the U.S. Census Bureau's 2020 Redistricting Data Program final release, except the following counties use shapefiles sourced from the respective county governments instead: Baldwin, Blount, Calhoun, Cullman, DeKalb, Franklin, Jefferson, Lee, Limestone, Madison, Marengo, Marshall, Mobile, Morgan, St. Clair, Shelby, Talladega, Tuscaloosa.
+
+Precinct boundaries were adjusted as appropriate to align with county maps, municipal boundaries, or commission districts. Precinct boundaries throughout the state were further reviewed with the voter registration file in effect for the November 2020 general election. Voting districts in nearly all counties were edited accordingly to align with reporting units in the 2020 election results. In many counties the resulting boundaries bear little resemblance to the 2020 Census VTDs. As these boundary revisions were so extensive only splits and merges are specified below by precinct.
+
+Many precincts have outdated names in the Census VTDs. The Census VTDs also have at least some precinct names in wrong locations for the following counties: Clarke, Clay, Cleburne, Conecuh, Dallas, Escambia, Geneva, Greene, Jefferson, Lauderdale, Limestone, Marion, Marshall, Monroe, Perry, Randolph, Russell, Tallapoosa, Walker, Washington, Wilcox. Moreover, many precinct numbers and consequently the VTD GeoIDs are also incorrect throughout much of the state in the Census shapefiles. All precinct names and numbers have been edited to match the 2020 voter file.
+
+The following splits and merges were made to align voting district boundaries with reporting units in the 2020 election results.
+
+Barbour: Split Eufaula between Bevill/CC/Fellowship/McCoo/Sanford/WB
+Calhoun: Add precinct splits to Beats 1, 4, 5, 9, 12, 13, 15, 19, 22
+Cherokee: Split Friendship/Mt Calvary, McCord's/Rock Run, Mt Weisner/VFD #2
+Choctaw: Split Cromwell/Halsell/Intersection
+Clarke: Split Antioch/Grove Hill/Helwestern, Choctaw Bluff/Gainstown, Grove Hill NG/Whatley, Jackson/Skipper, Springfield/Thomasville; Merge Fulton FS/CH
+Colbert: Merge Mynot into Allsboro/Cherokee
+Covington: Split Heath/Straughn, Pleasant Home/Wing
+Cullman: Split Cullman City Hall/Civic Ctr/Conf Room/Courthouse
+Dallas: Merge Marion Jct/New Friendship
+DeKalb: Merge Antioch/Fyffe, Pea Ridge into Hammondville/Henagar/Ider, Five Points/Senior Center
+Etowah: Merge Fords Valley/Hokes Bluff, Tabernacle/Walnut Park
+Fayette: Split Browns-Glen Allen/Whites Chapel, Cole-Killingsworth/Paul Hubbert, Fayette CC/Covin/YC, Lee-Belk/Palestine
+Geneva: Split Bellwood/El Bethel, Flat Creek/Hacoda, Hughes VH/Malvern, Lowery/Revels, Piney Grove/Samson, Slocomb/Tate
+Jackson: Merge Aspel/Limrock, Bishop Hall/Estill Fork, Christian Home/Flat Rock, Garth/Trenton, Hambrick/Hollytree/Princeton
+Jefferson: Split 3030/3035 Bethel Baptist/Pleasant Grove; Merge 1120/1260 as Robinson Elementary, 2350/5270 as Oxmoor Valley
+Marion: Split Kimbrough N/S; Merge Hamilton N/S as ET Sims
+Monroe: Split Chrysler/Mineola, Coleman/Excel, Franklin/Wainwright, Peterman/Philadelphia
+Randolph: Split Bethel/Moores/Woodland, Cavers/Swagg, Corinth/Morrison, Midway/New Hope/Wedowee, Omaha/Tin Shop/Wehadkee, Rock Mills/Wilson
+Russell: Split Courthouse/Golden Acres
+Tallapoosa: Split Cooper/Duncan/Moncrief; Merge New Paces 901/902 to match county shapefile
+Wilcox: Split National Guard Camden, Pine Apple Comm Ctr, Pine Apple AWIN, St Paul Church
+Winston: Split Addison/Upshaw, Delmar/Natural Bridge, Haleyville/Neighborhood/Pebble/Waldrop, Lynn/Old Union, Nesmith/Helicon
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREOWRI - Write-in Votes
+
+G20USSRTUB - Tommy Tuberville (Republican Party)
+G20USSDJON - Doug Jones (Democratic Party)
+G20USSOWRI - Write-in Votes
+
+G20SSCRSHA - Greg Shaw (Republican Party)
+G20SSCOWRI - Write-in Votes
+
+G20SSCRMEN - Brad Mendheim (Republican Party)
+G20SSCOWR2 - Write-in Votes
+
+G20SACRTHO - William C. "Bill" Thompson (Republican Party)
+G20SACOWRI - Write-in Votes
+
+G20SACRFRI - Matt Fridy (Republican Party)
+G20SACOWR2 - Write-in Votes
+
+G20SCCRWIN - Mary Windom (Republican Party)
+G20SCCOWRI - Write-in Votes
+
+G20SCCRKEL - Beth Kellum (Republican Party)
+G20SCCOWR2 - Write-in Votes
+
+G20PSCRCAV - Twinkle Andress Cavanaugh (Republican Party)
+G20PSCDCAS - Laura Casey (Democratic Party)
+G20PSCOWRI - Write-in Votes
+
+
+Alaska
+------
+Election results from Alaska Division of Elections (http://www.elections.alaska.gov/results/20GENR/index.php)
+Precinct shapefile from Alaska Division of Elections (http://www.elections.alaska.gov/Core/districtmaps.php)
+
+Early, Absentee, and Questioned votes are only reported at the State House district level (since Alaska has portions of the state with no lower level of government, HDs serve a similar purpose as counties do in other states for the purpose of reporting votes). These votes are apportioned to precincts by candidate in the same shares that the Election Day vote was split among precincts within an HD. Similarly, federal-only ballots that are reported at the statewide level were apportioned to precincts by candidate based on their share of the precinct-level vote.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGJAN - James G. "Jesse Ventura" Janos (Green Party)
+G20PRECBLA - Don Blankenship (Conservative Party)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREOFUE - Roque "Rocky" De La Fuente (Alliance Party)
+
+G20USSRSUL - Dan Sullivan (Republican Party)
+G20USSDGRO - Al Gross (Democratic Party)
+G20USSOHOW - John Wayne Howe (Alaskan Independence Party)
+
+G20HALRYOU - Don Young (Republican Party)
+G20HALDGAL - Alyse S. Galvin (Democratic Party)
+
+
+Arizona
+-------
+Election results from Arizona Secretary of State (https://azsos.gov/2020-election-information)
+Precinct shapefile from Arizona Secretary of State via personal communication except Greenlee County is sourced from the county shapefile instead.
+
+The following modifications were made to match the precinct boundaries for the 2020 general election.
+
+Apache: Merge Puerco East/West
+La Paz: Merge Alamo into Wenden
+Maricopa: Merge South Mtn Park E, NE, S, SE, SW into South Mtn Park
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20USSDKEL - Mark Kelly (Democratic Party)
+G20USSRMCS - Martha McSally (Republican Party)
+
+
+Arkansas
+--------
+Election results from Arkansas Secretary of State (https://www.sos.arkansas.gov/elections/research/election-results)
+
+Precinct shapefile from the Arkansas GIS Office (http://gis.arkansas.gov/product/election-precincts/)
+
+Greene County was consolidated from 24 townships to 6 townships by court order in late 2019. Due to the proximity of the 2020 elections the results were reported by ballot type rather than by precincts based on the prior township map. The associated precinct parts were identified using the voter statistics report provided by the county. The relevant splits involve the state house districts, a Justice of the Peace district, and two school districts. Note also that in the general election results from the AR Secretary of State one of the reporting units in the new Bagwell Lake township is mislabeled as Crowley Ridge 3.
+
+Precinct merges were made in the following counties to match county reporting units: Carroll, Crittenden, Dallas, Hot Spring, Howard, Independence, Mississippi, Monroe, Nevada, Phillips, Poinsett, St. Francis.
+
+The following additional revisions were made to match the 2020 precinct boundaries.
+
+Boone: Add precinct splits with municipal and district boundaries on county map
+Greene: Align Paragould city wards with city PDF
+Izard: Split Sage in Melbourne 4 and Oxford in Brockwell with township shapefile
+Nevada: Split West Rural by township
+Ouachita: Split 11/19 with township and state house district shapefiles
+Phillips: Add Helena-West Helena wards from city redistricting map
+Prairie: Split White River Country with school zone shapefile
+Sebastian: Split 9-2A and 9-2C by Greenwood city ward
+St. Francis: Align Forrest City wards with city PDF and municipal code
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blankenship (Constitution Party)
+G20PREACAR - Brian Carroll (American Solidarity Party)
+G20PREOMYE - John Richard Myers (Life and Liberty Party)
+G20PRESLAR - Gloria La Riva (Socialism and Liberation Party)
+G20PREIWES - Kanye West (Independent)
+G20PREICOL - Phil Collins (Independent)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREIGAM - C.L. Gammon (Independent)
+G20PREIFUE - Roque "Rocky" De La Fuente (Independent)
+
+G20USSRCOT - Tom Cotton (Republican Party)
+G20USSDHAR - Ricky Dale Harrington Jr. (Libertarian Party)
+
+
+Colorado
+--------
+Election results from the Colorado Secretary of State (https://www.sos.state.co.us/pubs/elections/Results/Archives.html)
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program. The following counties used shapefiles sourced from the respective county governments instead: Adams, Arapahoe, Boulder, Delta, Denver, Douglas, El Paso, Fremont, Garfield, Gilpin, Jefferson, La Plata, Larimer, Mesa, Pitkin, Pueblo, Summit, Weld.
+
+Las Animas County precinct assignments in the voter file differ markedly from both the Census VTD boundaries and from maps received from the county. All precincts were revised to match the geocoded voter file and the list of districts assigned to precinct splits. As appropriate, precinct boundaries were revised using Census blocks, the Trinidad municipal boundary shapefile, school district or fire district boundaries, and the parcel shapefile from the Las Animas County Assessor.
+
+The following additional revisions were made to match the 2020 precinct boundaries:
+
+Logan: Align Sterling City precincts with city limits
+Montezuma: Precincts renumbered to match county maps
+Morgan: Split Precincts 1/18 to match county maps
+Otero: Align La Junta City precincts with county maps
+Prowers: All precincts adjusted to match county maps
+Rio Grande: Adjust Precincts 2/3 to match county maps
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blankenship (American Constitution Party)
+G20PREUWES - Kanye West (Unaffiliated)
+G20PREOOTH - Other Candidates
+
+G20USSDHIC - John W. Hickenlooper (Democratic Party)
+G20USSRGAR - Cory Gardner (Republican Party)
+G20USSLDOA - Raymon Anthony Doane (Libertarian Party)
+G20USSODOY - Daniel Doyle (Approval Voting Party)
+G20USSOEVA - Stehpan "Seku" Evans (Unity Party)
+G20USSOWRI - Write-in Votes
+
+
+Connecticut
+-----------
+Election results from the Connecticut Secretary of State (https://portal.ct.gov/SOTS/Election-Services/Election-Results/Election-Results). Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program.
+
+District splits not reported separately were merged for Bethel 5, Bridgeport 129-3, 130-2, Durham 3, East Haven 3-3, Hartford 11, 12, 24, Naugatuck 3-3, New Britain 12, New Haven 9-2, 17, 21-1, Stamford 3, 5, 6-1, 8, 12, 20-1, 21, Torrington 6, 7, Waterbury 74-5.
+
+The Stratford and Westport precincts were renumbered from municipal districts to state/federal districts.
+
+The following additional modifications were made to match the 2020 precinct boundaries.
+
+Ansonia: Adjust 1/2 to match shapefile
+Avon: Adjust 1/3 to match street list
+Berlin: Adjust 2/5 to match voter file
+Bethel: Adjust 1/4 to match voter file
+Bridgeport: Adjust 124-2/3/4, 126-1/2/5, 130-3/4 to match PDF
+Colchester: Adjust 1/3, 2/4 to match street list
+Coventry: Adjust 1/2 to match street list
+Danbury: Align wards 4/5, 6/7 with PDF
+Darien: Split 5/4-1, adjust 1/6 to match 2019 redistricting map
+East Hartford: Adjust 1/2, 5/6 to match street list
+East Haven: Add 1-3, 5-3 to match street list; Align 3, 3-3 with LD
+East Windsor: Align 1, 1-2 with LD
+Enfield: Adjust 258/458 to match PDF
+Fairfield: Split 3-32/3-34 by LD; Adjust 8/9 to match PDF
+Glastonbury: Adjust 4/5, 4/9, 7/9 to match PDF
+Greenwich: Split 10/10-1 by LD; Adjust 1/2/3 to match PDF
+Guilford: Adjust 1/3, 2/3 to match descriptions
+Haddam: Adjust 1/2 to match street list
+Hamden: Adjust 1/9, 5/6 to match PDF
+Killingly: Merge 1/3/5, 2-1/4-1, 2-2/4-2
+Ledyard: Adjust 1/2 to match street list
+Litchfield: Adjust 2/4 to match voter file
+Manchester: Adjust 3/5 to match street list
+Middletown: Adjust 1/12 to match GIS
+Milford: Align 117/119, 119-1/3 with LD and PDF
+New Britain: Adjust 12/14 to match voter file
+New Haven: Split 11-1/11-3 and align VTDs with voter file
+New Milford: Align all VTDs with voter file
+Newtown: Adjust 1/2 to match street list
+Norwich: Adjust 4/5 to match voter file
+Plainfield: Adjust 1/3, 2/4 to match voter file
+Ridgefield: Adjust 1/2, 1/3 to match voter file
+Rocky Hill: Adjust 2/3 to match voter file
+Seymour: Adjust 1/3, 2/3 to match voter file
+Shelton: Adjust 1/4, 2/3 to match PDF, voter file
+Simsbury: Align 1/2 with 2017 redistricting
+South Windsor: Adjust 3/5, 4/5 to match PDF
+Southbury: Align all VTDs with shapefile, street list
+Southington: Adjust 3/6, 5/8, 8/9 to match PDF
+Stafford: Adjust 1/2 to match PDF
+Stamford: Adjust 6/13 to match PDF
+Stonington: Align all VTDs with shapefile
+Stratford: Split 20-1/13, 80-1/21 by LD; Align VTDs with voter file
+Vernon: Adjust 1/2, 2/3 to match PDF
+Wallingford: Adjust 2/3, 2/4, 7/8 to match voter file
+Waterbury: Align VTDs with PDF, street list, voter file
+West Haven: Adjust 1/7, 4/5/6, 8/9/10 to match voter file
+Weston: Adjust 1/2 to match voter file
+Windham: Adjust 4/6 to match street list
+Windsor: Adjust 1/3 to match street list
+Wolcott: Adjust 1/2, 1/3 to match voter file
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party of Delaware)
+G20PREOWRI - Write-in Votes
+
+
+Delaware
+--------
+Election results from Delaware Department of Elections (https://elections.delaware.gov/archive/elect20/elect20_election_index.shtml)
+Precinct shapefile from State of Delaware FirstMap GIS (http://opendata.firstmap.delaware.gov/datasets/delaware-election-boundaries)
+
+Precincts 17-02, 16-31, and 16-41 are the reporting units for UOCAVA votes from New Castle, Kent, and Sussex Counties, respectively. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precincts 10-02/13-02 were merged and precincts 02-09/10-09, 05-09/11-09, 08-09/12-09/13-09 were split in the shapefile to reflect changes made prior to the 2020 election.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party of Delaware)
+
+G20USSDCOO - Christopher A. Coons (Democratic Party)
+G20USSRWIT - Lauren Witzke (Republican Party)
+G20USSLFRO - Nadine M. Frost (Libertarian Party)
+G20USSITUR - Mark W. Turley (Independent Party of Delaware)
+
+G20HALDROC - Lisa Blunt Rochester (Democratic Party)
+G20HALRMUR - Lee Murphy (Republican Party)
+G20HALLROG - David L. Rogers (Libertarian Party)
+G20HALIPUR - Catherine S. Purcell (Independent Party of Delaware)
+
+G20GOVDCAR - John C. Carney Jr. (Democratic Party)
+G20GOVRMUR - Julianne E. Murray (Republican Party)
+G20GOVLMAC - John J. Machurek (Libertarian Party)
+G20GOVIDEM - Kathy S. DeMatteis (Independent Party of Delaware)
+
+G20LTGDHAL - Bethany Hall-Long (Democratic Party)
+G20LTGRHAL - Donyale Hall (Republican Party)
+
+G20INSDNAV - Trinidad Navarro (Democratic Party)
+G20INSRPIL - Julia Pillsbury (Republican Party)
+
+
+District of Columbia
+--------------------
+Election results from District of Columbia Board of Elections (https://electionresults.dcboe.org/election_results/2020-General-Election).
+Precinct shapefile from Open Data DC (https://opendata.dc.gov/datasets/voting-precinct-2019-1).
+
+The U.S. Senate and at-large U.S. House elections are for shadow members.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (DC Statehood Green Party)
+G20PREILAR - Gloria La Riva (Independent)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREOWRI - Write-in Votes
+
+G20DELDNOR - Eleanor Holmes Norton (Democratic Party)
+G20DELLHYN - Patrick Hynes (Libertarian Party)
+G20DELGSTR - Natale Lino Stacuzzi (DC Statehood Green Party)
+G20DELSMUS - Omari Musa (Socialist Works Party)
+G20DELIFRA - Barbara Washington Franklin (Independent)
+G20DELIKRU - David Krucoff (Independent)
+G20DELILOW - Amir Lowery (Independent)
+G20DELICHE - John "Recovery" Cheeks (Independent)
+G20DELOWRI - Write-in Votes
+
+G20COUDWHI - Robert White (Democratic Party)
+G20COURPIC - Maya Pickering (Republican Party)
+G20COULBIS - Joe Bishop-Henchman (Libertarian Party)
+G20COUGWIL - Ann C. Wilcox (DC Statehood Green Party)
+G20COUIHEN - Christina D. Henderson (Independent)
+G20COUIORA - Vincent Orange (Independent)
+G20COUILAZ - Ed Lazere (Independent)
+G20COUIGOO - Marcus Goodwin (Independent)
+G20COUIBAT - Markus Batchelor (Independent)
+G20COUIPAL - M�nica Palacio (Independent)
+G20COUIGAR - Franklin Garcia (Independent)
+G20COUILEW - Jeann� Lewis (Independent)
+G20COUIJAY - Chander Jayaraman (Independent)
+G20COUIBAR - Claudia Barrag�n (Independent)
+G20COUIHOW - A'Shia Howard (Independent)
+G20COUIMER - Will Merrifield (Independent)
+G20COUIHE2 - Kathy Henderson (Independent)
+G20COUIPAD - Alexander M. "Alex" Padro (Independent)
+G20COUIGUR - Calvin H. Gurley (Independent)
+G20COUISCR - Michangelo "DoctorMic" Scruggs (Independent)
+G20COUISIL - Keith Silver (Independent)
+G20COUICRI - Mario Cristaldo (Independent)
+G20COUIMUR - Rick Murphree (Independent)
+G20COUIROG - Eric M. Rogers (Independent)
+G20COUOWRI - Write-in Votes (Independent)
+
+G20USSDSTR - Paul Strauss (Democratic Party)
+G20USSRWEI - Cornelia Weiss (Republican Party)
+G20USSGORY - Eleanor Ory (Echo) (DC Statehood Green Party)
+G20USSOWRI - Write-in Votes
+
+G20HALDOWO - Oye Owolewa (Democratic Party)
+G20HALGROB - Joyce (Chestnut) Robinson-Paul (DC Statehood Green Party)
+G20HALISYE - Rohaer Rizvi Syed (Independent)
+G20HALOWRI - Write-in Votes
+
+
+Florida
+-------
+Election results from the Florida Department of State (https://dos.myflorida.com/elections/data-statistics/elections-data/precinct-level-election-results/)
+
+Precinct results from several sources.
+Alachua, Bay, Bradford, Brevard, Calhoun, Citrus, Clay, Dixie, Escambia, Hardee, Hendry, Hernando, Indian River, Lafayette and Sarasota come from the Department of State.
+Broward, Gadsden, Gilchrist, Manatee, Nassau, Santa Rosa, St. Johns, St. Lucie, and Union are from the Orlando Sentinel's precinct map for the 2016 presidential primary (http://interactive.orlandosentinel.com/elections/2016/presidential-primary/results/dem.html).
+Baker, Charlotte, Franklin, Glades, Holmes, Jackson, Jefferson, Levy, Liberty, Madison, Monroe, Okeechobee, Orange, Seminole, Suwannee, Taylor, Wakulla, Walton, and Washinton come from the U.S. Census Bureau's 2020 Redistricting Data Program.
+Collier, Columbia, DeSoto, Duval, Flagler, Gulf, Highlands, Hillsborough, Lake, Lee, Leon, Marion, Martin, Miami-Dade, Okaloosa, Osceola, Palm Beach, Pasco, Pinellas, Polk, Putnam, Sumter, and Volusia come from the counties.
+Hamilton was drawn based on a geocoded voter registration file.
+Edits were made to Brevard, Charlotte, Escambia, Franklin, Indian River, Jefferson, Lafayette, Lake, and Lee, Miami-Dade, and St. Johns based on the voter registration file.
+
+Lake 108, Osceola 999, Palm Beach 8002, Seminole 900s, and Monroe's "Cumulative" precinct (the latter appears on the county's detailed results but not the DOS's precinct results file) don't have geography. Brevard 999, Broward Z073, Collier 450, Flagler 999, Hillborough 999, Leon 9000, Miami-Dade 100, and Pinellas 512 do have geography, but they are just the county election offices. Both groups represent some type of vote not assigned to a particular geography, like UOCAVA results, so these were distributed across the county by candidate proportional to the vote each precinct recorded.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREODEL - Roque "Rocky" De La Fuente (Reform Party)
+G20PRESLAR - Gloria La Riva (Party for Socialism and Liberation)
+G20PREGHAW - Howie Hawkin (Green Party)
+G20PRECBLA - Don Blankenship (Constitution Party)
+G20PREOWRI - Write-in Votes
+
+
+Georgia
+-------
+Election results from the Georgia Secretary of State Elections Division (https://sos.ga.gov/index.php/Elections/current_and_past_elections_results). Presidential recount results from the Georgia Secretary of State Elections Division via Reuters.
+
+Precinct shapefile primarily from the Georgia General Assembly Reapportionment Office (http://www.legis.ga.gov/Joint/reapportionment/en-US/default.aspx). Cobb, DeKalb, and Gwinnett counties instead use shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program. Forsyth and Fulton use shapefiles sourced from the respective counties.
+
+Three of the four VTDs in Chattahoochee County are comprised of Fort Benning. However, the county only reports one polling location for all voters, including residents of Fort Benning that vote within the county. The four Chattahoochee County VTDs have therefore been merged in the shapefile.
+
+The following additional modifications reflect changes made prior to the 2020 general election.
+
+Barrow: Merge 2/15, 3/12, 4/14, 5/7, 6/10/13, 8/9, 11/16; Adjust new 2/13 boundary
+Bartow: Split Cassville/Hamilton Crossing
+Candler: Merge Candler/Metter as Jack Strickland Comm Center
+Chatham: Split 7-7/8-16, 7-12/7-16; Realign 7-06C/7-07C
+Chatooga: Split Cloudland/Teloga along ridgeline that marks boundary between them with the USGS Topographic Contour shapefile
+Clayton: Split Ellenswood 1/2, Jonesboro 1/17/19, Lovejoy 3/6/7, Morrow 3/11, 5/10, Oak 3/5
+Cobb: Split Bells Ferry 3/4, Dobbins 1/2, Marietta 3A/3B, Smyrna 3A/3B
+Columbia: Split Bessie Thomas/2nd Mt Moriah, Harlem Branch/Harlem Senior Ctr; Merge Blanchard Park/MTZ Col FD;  Align multiple precincts with county maps
+Coweta: Merge Arts Centre/Jefferson Parkway as Newnan Centre
+Fulton: Merge CP07A/CP07D, CH01/CH04B, SS29A/SS29B, UC031/UC035
+DeKalb: Split Clarkston/Clarkston Comm Ctr; Realign Decatur/Oakhurst; Align precincts with Atlanta, Brookhaven, Decatur, Tucker city limits
+Gwinnett: Adjust Baycreek F/G, Berkshire J/M, Cates D/F, Garners C/B, Lawrenceville G/N, Pinckneyville S/T, Rockbridge A/G
+Lowndes: Split Northgate Assembly/Trinity, Jaycee/Mt Calvary/Northside/VSU
+Oconee: Merge Annex/City Hall; Align City Hall with Watkinsville city limits
+Paulding: Reorganize 12 precincts into 19 precincts as redrawn in 2019
+Randolph: Merge Carnegie/Cuthbert-Courthouse, 4th District/Fountain Bridge/Shellman
+Troup: Split Mountville between Gardner Newman/Hogansville/Rosemont; Align multiple precincts with county maps
+Towns: Merge Macedonia/Tate City
+Wilkes: Align 1/2A boundary with the voter file
+Note that the leading zeros in the Paulding County precinct IDs are included in some election reports and omitted in others. The shapefile includes the leading zeros consistent with the voter file.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+C20PRERTRU - Donald J. Trump (Republican Party)
+C20PREDBID - Joseph R. Biden (Democratic Party)
+C20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20USSRPER - David A. Perdue (Republican Party)
+G20USSDOSS - Jon Ossoff (Democratic Party)
+G20USSLHAZ - Shane Hazel (Libertarian Party)
+
+S20USSRLOE - Kelly Loeffler (Republican Party)
+S20USSRCOL - Doug Collins (Republican Party)
+S20USSRGRA - Derrick E. Grayson (Republican Party)
+S20USSRJAC - Annette Davis Jackson (Republican Party)
+S20USSRTAY - Kandiss Taylor (Republican Party)
+S20USSRJOH - A. Wayne Johnson (Republican Party)
+S20USSDWAR - Raphael Warnock (Democratic Party)
+S20USSDJAC - Deborah Jackson (Democratic Party)
+S20USSDLIE - Matt Lieberman (Democratic Party)
+S20USSDJOH - Tamara Johnson-Shealey (Democratic Party)
+S20USSDJAM - Jamesia James (Democratic Party)
+S20USSDSLA - Joy Felicia Slade (Democratic Party)
+S20USSDWIN - Richard Dien Winfield (Democratic Party)
+S20USSDTAR - Ed Tarver (Democratic Party)
+S20USSLSLO - Brian Slowinski (Libertarian Party)
+S20USSGFOR - John Fortuin (Green Party)
+S20USSIBUC - Allen Buckley (Independent)
+S20USSIBAR - Al Bartell (Independent)
+S20USSISTO - Valencia Stovall (Independent)
+S20USSIGRE - Michael Todd Greene (Independent)
+
+G20PSCRSHA - Jason Shaw (Republican Party)
+G20PSCDBRY - Robert G. Bryant (Democratic Party)
+G20PSCLMEL - Elizabeth Melton (Libertarian Party)
+
+G20PSCRMCD - Lauren Bubba McDonald, Jr. (Republican Party)
+G20PSCDBLA - Daniel Blackman (Democratic Party)
+G20PSCLWIL - Nathan Wilson (Libertarian Party)
+
+R21USSRPER - David A. Perdue (Republican Party)
+R21USSDOSS - Jon Ossoff (Democratic Party)
+
+R21USSRLOE - Kelly Loeffler (Republican Party)
+R21USSDWAR - Raphael Warnock (Democratic Party)
+
+R21PSCRMCD - Lauren Bubba McDonald, Jr. (Republican Party)
+P21PSCDBLA - Daniel Blackman (Democratic Party)
+
+
+Hawaii
+------
+Election results from Hawaii Office of Elections (https://elections.hawaii.gov/election-results/).
+Precinct shapefile from Hawaii Statewide GIS Program (http://geoportal.hawaii.gov/datasets/election-precincts-).
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blankenship (Conservative Party)
+G20PREOPIE - Brock Pierce (American Shopping Party)
+
+
+Idaho
+-----
+Election results from Idaho Secretary of State (https://sos.idaho.gov/elections-division/election-results/)
+
+Absentee votes were reported countywide or by legislative district for Adams, Bannock, Bingham, Boise, Bonneville, Boundary, Clearwater, Custer, Elmore, Franklin, Fremont, Gem, Idaho, Jefferson, Jerome, Latah, Lemhi, Madison, Minidoka, Nez Perce, Owyhee, Shoshone, Teton, Twin Falls. These were distributed by candidate to precincts based on their share of the precinct-level vote for the given reporting unit.
+
+Precinct shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release, except the following counties used shapefiles sourced from the respective county governments instead: Ada, Adams, Bannock, Bingham, Boise, Bonner, Cassia, Clearwater, Custer, Fremont, Jefferson, Kootenai, Latah, Lemhi, Lewis, Madison, Minidoka, Nez Perce, Oneida, Power, Twin Falls, Valley.
+
+County borders in all county-sourced shapefiles were aligned with the U.S Census Bureau's boundaries. The following additional modifications were made to match the 2018 precinct boundaries.
+
+Bear Lake: Adjust precincts to match county maps and voter file
+Benewah: Boundaries revised countywide to match legal description
+Bonner: Extend precincts over water and align with legal description
+Boundary: Merge BF/Kootenai
+Butte: Split Arco 1/Moore along USGS watershed line; Adjust Arco 1/2
+Camas: Precinct numbers reversed based on county map
+Cassia: Merge Burley 1/7
+Clark: Adjust Precinct 1/2, 1/3
+Elmore: Adjust Mountain Home 4/Hammett
+Franklin: Split Cleveland/Mound Valley
+Gem: Adjust Lincoln/Emerson, Hanna/West Emmett
+Gooding: Align boundaries with PLSS grid and city limits
+Idaho: Adjust Clearwater/Stites
+Jerome: Split Canyonside/Rimrock
+Teton: Adjust precincts 4, 6 to match Driggs, Victor city limits
+Washington: Align Weiser precincts with city limits
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREIWES - Kanye West (Independent)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREIBLA - Don Blankenship (Constitution Party)
+G20PREIFUE - Rocky "Rocky" De La Fuente (Independent)
+
+G20USSRRIS - Jim Risch (Republican Party)
+G20USSDJOR - Paulette Jordan (Democratic Party)
+G20USSIFLE - Natalie M Fleming (Independent)
+G20USSCWRI - Ray J. Writz (Constitution Party)
+
+
+Illinois
+--------
+Election results from Illinois State Board of Elections(https://www.elections.il.gov/electionoperations/votetotalsearch.aspx)
+
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program final release.
+
+Countywide votes were distributed for Bureau, Kankakee, Livingston, Macon, Perry, Sangamon. It was just 6 votes in Sangamon and 1 to 3 votes in each of the other counties.
+
+The following modifications were made to match precinct boundaries in use for the 2020 general election.
+
+Washington: Merge Hoyleton 1/2
+Winnebago: Adjust Rockton 5/11/12/13
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREACAR - Brian Carroll (American Solidarity Party)
+G20PRESLAR - Gloria La Riva (Party for Socialism and Liberation)
+
+G20USSDDUR - Richard J. Durbin (Democratic Party)
+G20USSRCUR - Mark C. Curran Jr. (Republican Party)
+G20USSIWIL - Willie L. Wilson (Willie Wilson Party)
+G20USSLMAL - Danny Malouf (Libertarian Party)
+G20USSGBLA - David F. Black (Green Party)
+
+
+Indiana
+-------
+Election results where available by precinct except Ohio County from the Indiana Secretary of State Election Division (https://enr.indianavoters.in.gov/site/index.html).
+
+Election results for the following counties from county canvass reports as processed by OpenElections: Benton, Carroll, Clark, Clay, Daviess, Dubois, Fayette, Fountain, Hancock, Jackson, Jasper, Jay, Jennings, LaPorte, Lawrence, Marshall, Montgomery, Morgan, Newton, Noble, Orange, Owen, Parke, Pulaski, Randolph, Scott, Spencer, Steuben, St. Joseph, Switzerland, Tipton, Warren, Warrick.
+
+Election results for the following counties directly from county canvass reports: Cass, Crawford, Dearborn, Floyd, Fulton, Greene, Hendricks, Ohio, Perry, Ripley, Starke, Tippecanoe, Vanderburgh, Vigo, Washington.
+
+The canvass report from Ohio County differs from the Secretary of State precinct results for 3 precincts: Cass 7, Randolph 5, and Randolph 6. Consequently, the statewide totals differ from the final results reported on the SoS website as follows: Trump (R) +338, Biden (D) +82, Jorgensen (L) -331 for President; Rainwater (L) -66 for Governor; Rokita (R) -14 for Attorney General.
+
+Precinct shapefile primarily from the U.S. Census Bureau's Redistricting Data Program. However, many counties featured outdated or inaccurate precinct boundaries usually related to changes in corporate boundaries. The correct 2020 precinct boundaries were identified using GIS maps from each county. As appropriate, precinct boundaries for the following counties were replaced using shapefiles from the Indiana Secretary of State Election Division or from the respective counties. Where necessary, boundaries were further edited to align with 2020 corporate boundaries as determined via county parcel records.
+
+Adams, Allen, Bartholomew, Benton, Boone, Carroll, Cass, Clinton, Daviess, Dearborn, Decatur, Delaware, DeKalb, Elkhart, Fayette, Floyd, Fountain, Fulton, Grant, Greene, Hamilton, Huntington, Jackson, Jefferson, Johnson, Kosciusko, Lake, LaPorte, Lawrence, Marion, Monroe, Montgomery, Morgan, Perry, Porter, Posey, Rush, Scott, Shelby, Sullivan, Vanderburgh, Vermilion, Wayne, Wells.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20GOVRHOL - Eric Holcomb (Republican Party)
+G20GOVDMYE - Woodrow (Woody) Myers (Democratic Party)
+G20GOVLRAI - Donald G. Rainwater II (Libertarian Party)
+
+G20ATGRROK - Todd Rokita (Republican Party)
+G20ATGDWEI - Jonathan Weinzapfel (Democratic Party)
+
+
+Iowa
+----
+Election results from Iowa Secretary of State (https://sos.iowa.gov/elections/results/index.html)
+Precinct shapefile primarily from IA Secretary of State (https://sos.iowa.gov/shapefiles/)
+
+The following counties instead use shapefiles sourced from the respective county governments: Dallas, Dubuque, Johnson, Linn, Polk, Pottawattamie, Scott, Story. The following counties were aligned with updated municipal boundaries from the U.S. Census Bureau's 2020 Redistricting Data Program: Marion, Muscatine, Woodbury. Mitchell County was edited to match the revised 2020 precinct map from the county.
+
+The following precincts were merged to match the 2020 general election results.
+
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Cass: Atlantic 1/BR-GV-WS-PY, Atlantic 2/3, 4/5, BN-FR/GN-LN
+Davis: Bloomfield 1/2/3
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Henry: Mt Pleasant 1/2/3/4
+Howard: Cresco 1/2/3
+Lee: Fort Madison 4A/4B, Keokuk 2A/2B, FCM/Harrison
+Mitchell: Precinct 1/12, 3/10/11, 5/6, 7/8/9
+Polk: Grimes 2/Urbandale 12
+Tama: Toledo 1/2/3
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blakenship (Constitution Party)
+G20PREOFUE - Roque Rocky De La Fuente (Alliance Party)
+G20PREOKIN - Ricki Sue King (Genealogy Know Your Family History Party)
+G20PREIWES - Kanye West (Independent)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREOWRI - Write-in Votes
+
+G20USSRERN - Joni Ernst (Republican Party)
+G20USSDGRE - Theresa Greenfield (Democratic Party)
+G20USSLSTE - Rick Stewart (Libertarian Party)
+G20USSOHER - Suzanne Herzog (Independent)
+G20USSOWRI - Write-in Votes
+
+
+Kansas
+------
+Election results from Kansas Secretary of State (https://sos.ks.gov/elections/elections-statistics.html).
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release.
+
+Shapefiles from county elections officials used in Geary, Johnson, Riley, and Sedgwick Counties.
+
+Modifications needed to be made to reflect differences between Census shapefiles and actual PDF maps or reported results.
+
+Barber: Ridge merged into Sharon Township
+Butler: Augusta Township merged
+Chase: East/West Strong merged, East/West Falls merged
+Cherokee: Treece merged with township
+Clay: Altered Clay Center boundaries based on PDF map
+Cowley: Merge East/West Bolton
+Douglas: Altered based on PDF map
+Ellis: Split two precincts based on state house districts
+Franklin: Merged Ottawa 4+5, altered boundary between 1 and 2
+Hamilton: Adjusted Syracuse boundaries based on county commission district map
+Harvey: Distributed an exclave district to its neighboring townships
+Labette: Split precincts based on legislative districts
+Leavenworth: Merged legislative district-split precincts that don't appear in results
+Lyon: Mergers based on PDF map
+Meade: Split Louisburg based on PDF map
+Mitchell: Merged Beloit precincts based on county reports
+Osborne: Merged some cities into surrounding townships, split Ross based on information from personal communication with county election official
+Reno: Merged based on PDF map
+Shawnee: Merged wards in Topeka to match result reporting
+Stevens: Cut Moscow City out of Township using Census place shapefile, recut Hugoton based on PDF map
+Sumner: Split precincts based on legislative district lines
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20USSDBOL - Barbara Bollier (Democratic Party)
+G20USSRMAR - Roger Marshall (Republican Party)
+G20USSLBUC - Jason Buckley (Libertarian Party)
+
+
+Louisiana
+---------
+Election results from LA Secretary of State (https://voterportal.sos.la.gov/static/)
+Precinct shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release.
+
+Early votes were reported at the parish level. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Election results from the following parishes include "alpha" precincts in which voters within the same geographic boundaries are assigned to separate precincts by the first letter of their surname: Ascension, Assumption, Bossier, East Baton Rouge, Caddo, Lafourche, Rapides, St. Charles, St. Landry, Terrebonne
+
+The following precincts were modified to reflect alterations enacted prior to the 2020 election:
+
+Avoyelles: Merge 2-5B/6-1A
+East Baton Rouge: Split 3-16/3-71, 3-32/3-72
+Plaquemines: Merge 2-1/2-2, 4-1/4-2, 5-1/5-2
+St. Charles: Merge 2-6/2-7, 3-1/3-6, 3-3/3-4, 6-2/6-3, 6-4/6-5
+Vermilion: Split 49B-1/49B-2
+Webster: Merge 7/11
+West Baton Rouge: Split 2-A/2-B; 11-A/11-B
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREOWES - Kanye West (The Birthday Party)
+G20PREOOTH - Other Candidates
+
+G20USSRCAS - "Bill" Cassidy (Republican Party)
+G20USSRMUR - Dustin Murphy (Republican Party)
+G20USSDPER - Adrian Perkins (Democratic Party)
+G20USSDEDW - Derrick "Champ" Edwards (Democratic Party)
+G20USSDPIE - Antoine Pierce (Democratic Party)
+G20USSDKNI - David Drew Knight (Democratic Party)
+G20USSDWEN - Peter Wenstrup (Democratic Party)
+G20USSLSIG - Aaron C. Sigler (Libertarian Party)
+G20USSIMEN - M.V. "Vinny" Mendoza (Independent Party)
+G20USSOPRI - Melinda Mary Price (Other party)
+G20USSOJOH - "Xan" John (Gold Party)
+G20USSNBIL - Beryl Billiot (No party)
+G20USSNBOU - John Paul Bourgeois (No party)
+G20USSNMON - Jamar Montgomery (No party)
+G20USSNDAR - Reno Jean Daret III (No party)
+
+
+Maine
+-----
+Election results by township from Maine Bureau of Corporations, Elections & Commissions (https://www.maine.gov/sos/cec/elec/results/index.html)
+Election results by ward from municipal reports for Auburn, Augusta, Belfast, Ellsworth, Gorham, Lewiston, Portland, Sanford, South Portland.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program. Voting district shapefiles were available for Androscoggin, Cumberland, Kennebec, Sagadahoc, Waldo, York. County subdivision shapefiles were used instead for Aroostook, Franklin, Hancock, Knox, Lincoln, Oxford, Penobscot, Piscataquis, Somerset, Washington.
+
+VTDs were merged for Bath, Brunswick, Saco, Waterville, Westbrook as statewide votes were not reported by ward. VTDs for Ellsworth and Gorham were sourced from township ward maps.
+
+Absentee votes were reported by township for Auburn, Augusta, Ellsworth, Gorham, Lewiston, Portland, Sanford, South Portland. Military and overseas ballots (UOCAVA) were reported statewide. These were distributed by candidate to precincts based on their share of the precinct-level vote for the given reporting unit.
+
+For Portland City the state reported 33786 votes for Joe Biden (D) and 6486 votes for Donald Trump (R). In the Senate election the state reported 28053 votes for Sara Gideon (D) and 8659 votes for Susan Collins (R). Amended precinct returns by Portland City add up to 33784 votes for Biden, 6483 votes for Trump, 28071 votes for Gideon, and 8656 votes for Collins.
+
+Maine features more than 400 unorganized townships and islands that do not lie within municipal bounds. While some are designated separately, the U.S. Census Bureau combines most of these into larger unorganized territories within each county. Voters in unorganized townships are assigned to nearby incorporated townships. In some cases these votes are reported separately while in others they are combined into the total vote reported from the central voting location. The shapefile has been modified accordingly with boundaries from the Town Boundaries shapefile provided by the Maine Office of GIS. For unorganized territories that are unpopulated or otherwise do not appear to have any registered voters the Census boundaries have been retained unaltered.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Independent Party)
+G20PREAFUE - Roque De La Fuente (Alliance Party)
+
+G20USSDGID - Sara I. Gideon (Democratic Party)
+G20USSRCOL - Susan Margaret Collins (Republican Party)
+G20USSISAV - Lisa Savage (Independent)
+G20USSILIN - Max Patrick Linn (Independent)
+
+
+Maryland
+--------
+Election results from the Maryland State Board of Elections (https://elections.maryland.gov/elections/2020/election_data/index.html)
+Precinct shapefiles primarily sourced from the respective county governments. Caroline, Dorchester, Kent, Talbot, Somerset, and Worcester instead sourced from the Maryland Department of Planning.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREBSEG - Jerome M. Segal (Bread and Roses Party)
+G20PREOWRI - Write-in Votes
+
+
+Massachusetts
+-------------
+Election results from Massachusetts Secretary of the Commonwealth (https://electionstats.state.ma.us/) Precinct shapefile from MassGIS Bureau of Geographic Information (https://docs.digital.mass.gov/dataset/massgis-data-wards-and-precincts)
+
+A number of municipal boundaries were aligned with the more current MassGIS Town Survey shapefile.
+
+The following precincts were split by congressional district to match reporting units: Andover 7; Bellingham 4; Cambridge 3-2; Fall River 5B,6C; Palmer 1; Raynham 1,2; Sudbury 1; Winchendon 1. Andover 9A was merged with Andover 1 by an act of the MA legislature prior to the 2020 election. The following precinct divisions are authorized and defined for voting purposes but not for redistricting purposes by specific acts of the MA legislature and were split accordingly: Chicopee 6A,6B; Dracut 6; Hingham 5; Newburyport 1; Peabody 4-3; Quincy 2-3; Revere 2-3,5-1,5-2. Warren A and Warren B precincts were split based on polling place assignments in the Warren parcel shapefile.
+
+G20PREDBID - Joseph R. Biden (Democratic-Farmer-Labor Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREOWRI - Write-in Votes
+
+G20USSDMAR - Edward J. Markey (Democratic Party)
+G20USSROCO - Kevin J. O'Connor (Republican Party)
+G20USSOAYY - Shiva Ayyadurai (Write-in)
+G20USSOWRI - Other Write-in Votes
+
+
+Michigan
+--------
+Election results from the Michigan Secretary of State (https://miboecfr.nictusa.com/cgi-bin/cfr/precinct_srch.cgi)
+Precinct shapefile from the Michigan GIS Open Data site (https://gis-michigan.opendata.arcgis.com/datasets/49eb37d0a4294924bf8ef5ffe0eac47e_6/)
+
+Some counties report "Statistical Adjustments" with their precinct results, which can either be positive or negative. Many of these are related to cities that span county lines, as they often match precinct results of these county-spanning cities. In some cases these adjustments cancel each other out across the two counties that share the city, but some (notably Clinton County's East Lansing and Eaton County's Lansing adjustments) are not reciprocated, which introduces error to statewide totals. Other than these, there appears to be a handful of tiny adjustments that were made to make the precinct totals match official countywide totals. None of these adjustments of any type were distributed to precincts, which may result in candidate totals being slightly off official totals.
+
+Write-in vote totals have been excluded, since in most cases, a large share of their votes are accounted for via statistical adjustments.
+
+In several cases, cities that overlapped county lines reported results in each county, but the shapefile had a single precinct. These were split at the county line in the shapefile and the two sets of results assigned accordingly.
+Claire city - Isabella/Clare
+Brown city - Lapeer/Sanilac
+Fenton city - Oakland/Genesee
+Richmond city - St. Clair/Macomb
+
+Berrien: the results for Sodus and St. Joseph townships appear to have been flipped, these were corrected
+Ottawa: via contact with the Park Township clerk's office, precinct 9 in the state shapefile has been renumbered to precinct 4
+Wayne: Detroit reports absentee votes via Absent Voter Counting Boards. The linkage file of boards to precincts is from OpenElections (https://github.com/openelections/openelections-sources-mi/tree/master/2020), and votes were distributed to precincts proportionally by election day vote.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRENDEL - Rocky De La Fuente (Natural Law Party)
+G20PRETBLA - Don Blankenship (US Taxpayers Party)
+
+G20USSRJAM - John James (Republican Party)
+G20USSDPET - Gary Peters (Democratic Party)
+G20USSGSQU - Marcia Squier (Green Party)
+G20USSNDER - Doug Dern (Natural Law Party)
+G20USSTWIL - Valerie L. Willis (US Taxpayers Party)
+
+
+Minnesota
+---------
+Election results from Minnesota Secretary of State (https://www.sos.state.mn.us/elections-voting/election-results/2020/2020-general-election-results/). Precinct shapefile from Minnesota Geospatial Commons (https://gisdata.mn.gov/dataset/bdry-votingdistricts).
+
+G20PREDBID - Joseph R. Biden (Democratic-Farmer-Labor Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREAFUE - Roque "Rocky" De La Fuente (Independence-Alliance Party)
+G20PREPLAR - Gloria La Riva (Socialism and Liberation Party)
+G20PRESKEN - Alyson Kennedy (Socialist Workers Party)
+G20PREIWES - Kanye West (Independent)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREOWRI - Write-in Votes
+
+G20USSDSMI - Tina Smith (Democratic-Farmer-Labor Party)
+G20USSRLEW - Jason Lewis (Republican Party)
+G20USSMOCO - Kevin O'Connor (Legal Marijuana Now Party)
+G20USSCSTE - Oliver Steinberg (Grassroots - Legalize Cannabis Party)
+G20USSOWRI - Write-in Votes
+
+
+Missouri
+--------
+Election results from the Missouri Secretary of State via OpenElections (https://github.com/openelections/openelections-data-mo/tree/master/2020). Absentee, provisional, and mail ballots were reported countywide in nearly every county. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release. Monroe County from the 2010 Census VTD release. Platte County from the 2020 Census VTD release. The following counties instead used maps or shapefiles sourced from the respective county governments: Audrain, Bates, Caldwell, Callaway, Camden, Cape Girardeau, Cedar, Cooper, Franklin, Greene, Jackson, Jasper, Jefferson, Laclede, Lafayette, Lawrence, Marion, McDonald, Miller, Nodaway, Osage, Ozark, Pemiscot, Pike, Randolph, Scott, St. Louis, Ste. Genevieve, Texas, Warren, Washington, Worth, Wright.
+
+Precinct merges were made in the following counties to match consolidated reporting units: Andrew, Audrain, Barry, Benton, Bollinger, Boone, Buchanan, Butler, Callaway, Camden, Cape Girardeau, Carroll, Carter, Cass, Christian, Clark, Cole, Cooper, Crawford, Dade, Dallas, Daviess, Dekalb, Douglas, Dunklin, Franklin, Gentry, Greene, Grundy, Hickory, Holt, Howard, Howell, Jackson, Jasper, Jefferson, Johnson, Linn, Livingston, Marion, Mercer, Mississippi, Moniteau, Morgan, New Madrid, Nodaway, Oregon, Osage, Pemiscot, Perry, Pettis, Phelps, Platte, Polk, Putnam, Ralls, Randolph, Ray, Ripley, St. Clair, St. Francois, Schuyler, Scotland, Shannon, Shelby, Stoddard, Stone, Sullivan, Taney, Vernon, Warren, Wayne, Webster, Worth.
+
+The following additional modifications were made to match how election results were reported in 2020.
+
+Audrain: Add Vandalia City; Align Mexico precincts with municipal code
+Barry: Add Monett City; Align Cassville with corporate boundary
+Barton: Adjust Lamar ward boundaries to match city map
+Bollinger: Adjust Patton/Sedgewickville to match county GIS
+Buchanan: Split Central Assembly between Ashland UM, Sojourn, Visitors Bureau
+Butler: Align Poplar Bluff with corporate boundary and adjust wards to match city map
+Callaway: Align Fulton, Holts Summit precincts with 2020 corporate boundaries
+Carroll: Adjust Carrollton ward boundaries to match voter file
+Carter: Split Hunter between Ellsinore/Grandin by zip code
+Cass: Align Belton, Peculiar, Pleasant Hill, Raymore precincts with corporate boundaries; Adjust 37 Pleasant Prairie/25 West Peculiar Rural
+Chariton: Adjust Salisbury wards to match city map
+Christian: Align Rosedale, Union Chapel precincts with Nixa 2020 corporate boundary; Revise Cassidy 1/Cassidy 2
+Clay: Split KC Lib 21-5/7, 21-27/28; Merge Gallatin 6/9 to match GIS; Adjust Excelsior Springs, Kearney, Smithville precincts to match 2020 ward and corporate boundaries; Adjust KC 21-1/15, 21-1/17, 21-3/11, 21-4/6, 21-4/11, 21-5/7/24, 21-6/24, 21-7/20, 21-13/26, 21-14/23, 21-17/16, 21-17/26, 21-27/28, 21-17/Platte 1, Gallatin 7/16, 10/13, 10/16, 11/15, 13/15, Kearney 3/Platte 2, Liberty 1/10, 6/13, 7/11, 11/14, Washington 1/3 to match voter file
+Clinton: Align Atchison/Concord, Jackson/Lathrop with 2020 precinct split assignments
+Cole: Adjust Marion Twp St Martins to include St Martins city in Jefferson Twp
+Crawford: Move Benton Twp section of Leasburg precinct from Recklein to Leasburg
+Dallas: Split N Benton Inside/OCL, S Benton Inside/OCL; Align N/S Benton with Buffalo ward map
+Dent: Split Boss precinct from R-4 precinct; Adjust R-2/R-3 boundary
+Dunklin: Align Holcomb, Rives with township boundaries; Adjust Arbyrd/Senath; Align Kennett wards with city map
+Franklin: Split Dry Branch between Stanton & St. Clair Out of Town
+Gasconade: Align Hermann, Owensville, Rosebud with corporate boundaries and ward descriptions
+Holt: Split West between Central/Northwest by school district
+Howell: Align West Plains precincts with 2020 corporate boundary
+Iron: Adjust Annapolis/Des Arc/Vulcan, Ironton/Pilot Knob
+Jasper: Realign Carthage 2/3, Joplin 1/7, 10/13, 10/15, 13/22, 25/Rex, Oronogo 1/2, Webb City 1/4 to match city ward maps
+Jefferson: Split Festus Ward 1 P1/P2, Ward 3 P1/P2, Ward 4 P1/P2; Adjust Crystal City/Riverview
+Johnson: Adjust Warrensburg NE/NW boundary to match county maps
+Lewis: Split LaBelle Twp between LaBelle FS/Lewistown FS with PLSS grid
+Lincoln: Align Moscow Mills, Troy with 2020 corporate boundaries; Adjust Briscoe/Troy Rural; Split Foley between Elsberry/Winfield, Silex between Briscoe/Millwood/Whiteside to match county GIS
+Linn: Split Brookfield Township between Brookfield 1&2/3&4
+Livingston: Align Chillicothe with 2020 corporate boundaries
+Macon: Align Macon City wards with corporate boundaries
+Madison: Align Fredericktown wards with corporate boundaries
+Marion: Split Fabius-Smileyville/Taylor, Warren-Monroe City/Warren; Align Hannibal wards with voter file
+Miller: Adjust all precinct boundaries to match voter file
+Mississippi: Adjust Bertrand/East Prairie Rural; Align East Prairie City with corporate boundary
+Montgomery: Align Bellflower/Middletown, Big Spring/Rhineland with voter file
+Morgan: Adjust Versailles North/South boundary to match county GIS
+New Madrid: Add New Madrid City wards; Add Big Prairie 4 precinct; Move Portageville Ward 1 to Portage 1
+Newton: Align Staples precincts with Joplin City GIS boundaries; Align Neosho precincts with Neosho City GIS boundaries; Adjust Newtonia/Ritchey Wentworth
+Pettis: Adjust Sedalia City wards to match city map
+Phelps: Align Rolla with corporate boundary and St. James wards with city maps
+Pike: Adjust Cuivre JL boundaries with Ashley NO, Buffalo E, Prairieville I
+Platte: Align Lake Waukomis, Parkville, Platte City, Riverside/Northmore, Weatherby Lake with corporate boundaries; Adjust Platte Hills/Park Hill, Seven Bridges/Shiloh
+Polk: Split Campbell, Jefferson, Union precincts by school district
+Pulaski: Adjust Big Piney/St. Roberts, Laquey/Waynesville
+Putnam: Split Union Twp into NE/SW precincts to match county map
+Ralls: Replace Center/Liberty precincts with 2010 VTDs
+Ray: Adjust Homestead Village/Wood Heights/Lawson, Richmond/Orrick
+Reynolds: Realign precincts countywide to match voter file
+Saline: Split Nelson precinct from Hardeman precinct; Adjust Marshall 2/3 boundary
+St. Charles: Split 180/Community; Adjust Brian/Ridgepoint, Civic/St. Paul, Harvester/Sycamore, Mamelle/Marina
+St. Francois: Align Desloge, Farmington, Park Hills with corporate boundaries and city ward maps; Adjust Bonne Terre/Timberline, Patterson/Timberline, Leadwood/Park Hills to match voter file
+Scott: Adjust Haywood City/Morley, Sikeston 1/McMullin/Vanduser
+Shannon: Align all precincts with county GIS and voter file
+Shelby: Adjust Jackson/North River to match voter file
+Stoddard: Adjust Advance/Leora, Bernie/Dexter/Pyle, Bloomfield/Essex/Gray Ridge
+Stone: Move Branson West from Ruth A to Ruth C; Adjust Ruth B City/Rural to match county GIS
+Taney: Adjust Boston Center/Walnut Shade; Align Branson wards with 2020 corporate boundary
+Vernon: Align Bronaugh/Moundville, Harwood/Schell City with voter file
+Washington: Adjust City Hall/Stony Point, Cruise/Richwoods to match county GIS
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blankenship (Constitution Party)
+
+G20GOVRPAR - Mike Parson (Republican Party)
+G20GOVDGAL - Nicole Galloway (Democratic Party)
+G20GOVLCOM - Rik Combs (Libertarian Party)
+G20GOVGBAU - Jerome Howard Bauer (Green Party)
+
+G20LTGRKEH - Mike Kehoe (Republican Party)
+G20LTGDCAN - Alissia Canady (Democratic Party)
+G20LTGLSLA - Bill Slantz (Libertarian Party)
+G20LTGGDRA - Kelley Dragoo (Green Party)
+
+G20ATGRSCH - Eric Schmitt (Republican Party)
+G20ATGDFIN - Rich Finneran (Democratic Party)
+G20ATGLBAB - Kevin C. Babcock (Libertarian Party)
+
+G20SOSRASH - John R. (Jay) Ashcroft (Republican Party)
+G20SOSDFAL - Yinka Faleti (Democratic Party)
+G20SOSLFRE - Carl Herman Freese (Libertarian Party)
+G20SOSGLEH - Paul Lehmann (Green Party)
+G20SOSCVEN - Paul Venable (Constitution Party)
+
+G20TRERFIT - Scott Fitzpatrick (Republican Party)
+G20TREDENG - Vicki Lorenz Englund (Democratic Party)
+G20TRELKAS - Nicholas (Nick) Kasoff (Libertarian Party)
+G20TREGCIV - Joseph Civettini (Green Party)
+
+
+Montana
+-------
+Election results from Montana Secretary of State (https://sosmt.gov/elections/results/)
+
+Precinct shapefile primarily from Dave Ritts at the Montana State Library, as prepared for submission to the U.S. Census Bureau's 2020 Redistricting Data Program. The three precincts in Treasure County were merged as the county transitioned to a single countywide precinct prior to the 2020 election.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20USSRDAI - Steve Daines (Republican Party)
+G20USSDBUL - Steve Bullock (Democratic Party)
+
+G20HALRROS - Matt Rosendale (Republican Party)
+G20HALDWIL - Kathleen Williams (Democratic Party)
+
+G20GOVRGIA - Greg Gianforte (Republican Party)
+G20GOVDCOO - Mike Cooney (Democratic Party)
+G20GOVLBIS - Lyman Bishop (Libertarian Party)
+
+G20ATGRKNU - Austin Knudsen (Republican Party)
+G20ATGDGRA - Raph Graybill (Democratic Party)
+
+G20SOSRJAC - Christi Jacobsen (Republican Party)
+G20SOSDBEN - Bryce Bennett (Democratic Party)
+
+G20AUDRDOW - Troy Downing (Republican Party)
+G20AUDDMOR - Shane A. Morigeau (Democratic Party)
+G20AUDLROO - Roger Roots (Libertarian Party)
+
+G20SPIRARN - Elsie Arntzen (Republican Party)
+G20SPIDROM - Melissa Romano (Democratic Party)
+G20SPILLEA - Kevin Leatherbarrow (Libertarian Party)
+
+
+Nebraska
+---------
+Election results from the Nebraska Secretary of State's office via email.
+Precinct shapefiles primarily from the U.S. Census Bureau's 2020 Redistricting Data Program, with the following exceptions.
+
+Cass, Douglas, Harlan, and Lancaster replaced with maps from the counties.
+
+Mergers and/or boundary shifts made based on county-sourced maps or geocoded voter files in Adams, Butler, Cuming, Custer, Dakota, Dawes, Dodge, Fillmore, Furnas, Hall, Keith, Keya Paha, Lincoln, Madison, Nemaha, Nuckolls, Phelps, Platte, Richardson, Saline, Scotts Bluff, and Seward.
+
+Some counties reported one or more classes of votes at the county level. These were distributed by candidate based on the precinct-level reported vote.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20USSRSAS - Ben Sasse (Republican Party)
+G20USSDJAN - Chris Janicek (Democratic Party)
+G20USSLSLA - Gene Siadek (Libertarian Party)
+
+
+Nevada
+------
+Election results from Nevada Secretary of State (https://www.nvsos.gov/sos/elections/election-information/precinct-level-results)
+
+Precinct shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program, except the following counties use shapefiles sourced from the respective county governments instead: Clark, Douglas, Elko, Humboldt, Lincoln, Lyon, Washoe. Precinct boundaries in Churchill, Eureka, Nye were aligned with county maps.
+
+President-only ballots were reported countywide for Carson City, Churchill, Clark, Douglas, Esmeralda, Eureka, Humboldt, Lander, Lyon, Nye, Washoe, White Pine. These were distributed by candidate to precincts based on the precinct-level reported vote.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREIBLA - Dan Blankenship (Independent American Party)
+G20PREONON - None of These Candidates
+
+
+New Hampshire
+-------------
+Election results from New Hampshire Secretary of State (https://sos.nh.gov/elections/elections/election-results/2020/general-election/). Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program final release.
+
+The Census VTD shapefile includes wards for the Town of Berlin and the Town of Derry that are only used for municipal elections. These were merged to match the statewide election returns.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+
+G20USSDSHA - Jeanne Shaheen (Democratic Party)
+G20USSRMES - Corky Messner (Republican Party)
+G20USSLODO - Justin O'Donnell (Libertarian Party)
+G20USSOWRI - Write-in Votes
+
+G20GOVDFEL - Dan Feltes (Democratic Party)
+G20GOVRSUN - Chris Sununu (Republican Party)
+G20GOVLPER - Darryl W. Perry (Libertarian Party)
+G20GOVOWRI - Write-in Votes
+
+
+North Carolina
+--------------
+Election results and precinct shapefile from the NC State Board of Elections (https://www.ncsbe.gov/results-data)
+
+Buncombe 681, Henderson CV, Wake 01-07A, 07-07A are missing from the 20201018 shapefile. They are added from the 20190827 shapefile.
+
+North Carolina produces two sets of election results data. The precinct results are the unaltered results as initially reported by the counties. Many counties report early votes by vote center while provisional and other nonstandard ballots may be reported countywide. The precinct-sorted results are then produced within 30 days after the election. In the precinct-sorted data nearly all votes are assigned to precincts regardless of the manner by which the ballots were cast. However, North Carolina law requires the addition of statistical "noise" to the precinct-sorted data wherever any given vote by any specific voter may otherwise be deduced via cross referencing the various election-related data sets produced by the SBE.
+
+For the 2020 general election 51 counties reported all votes by precinct in their initial precinct results. The precinct-sorted data set was used instead for the counties listed below.
+
+Alleghany, Avery, Beaufort, Bertie*, Bladen, Buncombe, Cabarrus, Caldwell, Camden, Currituck, Dare, Davidson*, Davie, Duplin*, Durham*, Edgecombe, Guilford, Halifax*, Harnett, Haywood, Henderson, Hertford, Hyde, Johnston, Jones, Lee, Lincoln, Macon, Martin, Mecklenburg*, Moore, Nash, New Hanover*, Northampton*, Orange, Pasquotank, Pitt*, Polk, Richmond, Scotland, Stokes*, Surry*, Tyrrell*, Wake, Washington, Watauga, Wayne, Wilkes*, Yadkin
+
+In counties marked by asterisk some votes were still reported by vote center or countywide in the precinct-sorted data. These were distributed by candidate to precincts based on the precinct-level reported vote. The precinct-sorted results were further adjusted to match the certified countywide totals based on the precinct-level vote by candidate.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blankenship (Constitution Party)
+G20PREOWRI - Write-in Votes
+
+G20USSRTIL - Thom Tillis (Republican Party)
+G20USSDCUN - Cal Cunningham (Democratic Party)
+G20USSLBRA - Shannon W. Bray (Libertarian Party)
+G20USSCHAY - Kevin E. Hayes (Constitution Party)
+
+G20GOVRFOR - Dan Forest (Republican Party)
+G20GOVDCOO - Roy Cooper (Democratic Party)
+G20GOVLDIF - Steven K. DiFiore (Libertarian Party)
+G20GOVCPIS - Al Pisano (Constitution Party)
+
+G20LTGRROB - Mark Robinson (Republican Party)
+G20LTGDHOL - Yvonne Lewis Holley (Democratic Party)
+
+G20ATGRONE - Jim O'Neill (Republican Party)
+G20ATGDSTE - Josh Stein (Democratic Party)
+
+G20TRERFOL - Dale R. Folwell (Republican Party)
+G20TREDCHA - Ronnie Chatterji (Democratic Party)
+
+G20SOSRSYK - E.C. Sykes (Republican Party)
+G20SOSDMAR - Elaine Marshall (Democratic Party)
+
+G20AUDRSTR - Anthony Wayne (Tony) Street (Republican Party)
+G20AUDDWOO - Beth A. Wood (Democratic Party)
+
+G20AGRRTRO - Steve Troxler (Republican Party)
+G20AGRDWAD - Jenna Wadsworth (Democratic Party)
+
+G20INSRCAU - Mike Causey (Republican Party)
+G20INSDGOO - Wayne Goodwin (Democratic Party)
+
+G20LABRDOB - Josh Dobson (Republican Party)
+G20LABDHOL - Jessica Holmes (Democratic Party)
+
+G20SPIRTRU - Catherine Truitt (Republican Party)
+G20SPIDMAN - Jen Mangrum (Democratic Party)
+
+G20SSCRNEW - Paul Newby (Republican Party)
+G20SSCDBEA - Cheri Beasley (Democratic Party)
+
+G20SSCRBER - Phil Berger, Jr. (Republican Party)
+G20SSCDINM - Lucy Inman (Democratic Party)
+
+G20SSCRBAR - Tamara Barringer (Republican Party)
+G20SSCDDAV - Mark Davis (Democratic Party)
+
+G20SACRWOO - April C. Wood (Republican Party)
+G20SACDSHI - Tricia Shields (Democratic Party)
+
+G20SACRGOR - Fred Gore (Republican Party)
+G20SACDCUB - Lora Christine Cubbage (Democratic Party)
+
+G20SACRDIL - Chris Dillon (Republican Party)
+G20SACDSTY - Gray Styers (Democratic Party)
+
+G20SACRCAR - Jeff Carpenter (Republican Party)
+G20SACDYOU - Reuben F. Young (Democratic Party)
+
+G20SACRGRI - Jefferson G. Griffin (Republican Party)
+G20SACDBRO - Chris Brook (Democratic Party)
+
+
+North Dakota
+------------
+Election results from North Dakota Secretary of State (https://results.sos.nd.gov/Default.aspx).
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program.
+
+Precincts in the following cities were edited to align with 2020 corporate boundaries: Bismarck, Bottineau, Bowman, Carrington, Devils Lake, Elgin, Dickinson, Grand Forks, Jamestown, Killdeer, Lincoln, Minot, Valley City, Watford. New Town and Stanley were edited to match the voter file.
+
+The following additional modifications were made to recreate the 2020 precinct boundaries.
+
+Burleigh: Merge 32-04 into 32-03, 32-05/06/07 as 32-04
+Grant: Merge 31-01/31-04 as Rural Grant
+Mercer: Add wards for Beulah and Hazen
+Mountrail: Merge 04-04/04-06 as Precinct 5
+Oliver: Adjust Center 2/7 to match county map
+Pierce: Align Rugby wards with 2015 ordinance
+Richland: Merge 25-03/25-10 as Wahpeton Comm Center
+Ward: Merge 40-01/40-02 as Ruthville
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREOWRI - Write-in Votes
+
+G20HALRARM - Kelly Armstrong (Republican Party)
+G20HALDRAK - Zach Raknerud (Democratic-Nonpartisan League Party)
+G20HALLPET - Steven James Peterson (Libertarian Party)
+G20HALOWRI - Write-in Votes
+
+G20GOVRBUR - Doug Burgum (Republican Party)
+G20GOVDLEN - Shelley Lenz (Democratic-Nonpartisan League Party)
+G20GOVLHEN - DuWayne Hendrickson (Libertarian Party)
+G20GOVOWRI - Write-in Votes
+
+G20AUDRGAL - Joshua C. Gallion (Republican Party)
+G20AUDDHAR - Patrick Hart (Democratic-Nonpartisan League Party)
+G20AUDOWRI - Write-in Votes
+
+G20TRERBEA - Thomas Beadle (Republican Party)
+G20TREDHAU - Mark Haugen (Democratic-Nonpartisan League Party)
+G20TREOWRI - Write-in Votes
+
+G20INSRGOD - Jon Godfread (Republican Party)
+G20INSOWRI - Write-in Votes
+
+G20PSCRKRO - Brian Kroshus (Republican Party)
+G20PSCDBUC - Casey D. Buchmann (Democratic-Nonpartisan League Party)
+G20PSCOWRI - Write-in Votes
+
+
+Ohio
+----
+Election results from the Ohio Secretary of State (https://www.sos.state.oh.us/elections/election-results-and-data/). Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program final release. Note that some VTDs were relabeled to match precinct names and/or precinct codes in the November 2020 general election returns.
+
+The following counties include adjustments to account for corporate annexations that are not specified below by precinct: Adams, Athens, Butler, Franklin, Guernsey, Montgomery, Stark, Tuscarawas, Warren, Wayne.
+
+The following additional revisions were made to match the 2020 precinct boundaries:
+
+Athens: Adjust Athens 4-4/4-5, Nelsonville 1/2/3/4
+Brown: Adjust Perry Twp South/Villages
+Butler: Adjust Hamilton 22/24, Oxford 6/11, Trenton 5/7, West Chester 28/39
+Champaign: Adjust Union N/S
+Clark: Align New Carlisle, Springfield precincts with county maps
+Crawford: Move eastern Polk Twp from Galion 1B to western Polk Twp
+Cuyahoga: Adjust Olmsted Twp D/F/H
+Delaware: Adjust Berlin C/Delaware 3-F
+Fairfield: Adjust Greenfield B/Lancaster 2-A, Pickerington F/Violet B/Violet C
+Greene: Adjust Bath 277/Fairborn 226/Xenia 351
+Hamilton: Adjust Cleves A/Whitewater A, Colerain BB/F
+Knox: Adjust Clinton A/Mount Vernon 1-B, Clinton B/Mount Vernon 2-A
+Lake: Adjust Painesville A/K
+Medina: Adjust Wadsworth City 1-D/Sharon D, Wadsworth City 2-D/Twp C
+Richland: Adjust Ontario 3/4
+Stark: Adjust Canton 8-C/Plain 6, Canton 6-A/Plain 12
+Summit: Adjust Coventry D/G, Hudson 1-B/3-C, Springfield F/J
+Warren: Adjust Mason City Z/Union A, South Lebanon A/B
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Independent)
+
+
+Oklahoma
+--------
+Election results are from Oklahoma State Election Board (https://results.okelections.us/OKER/?elecDate=20201103).
+Precinct shapefile from Oklahoma GIS Data Warehouse (https://csagis-uok.opendata.arcgis.com/).
+
+Early votes were reported countywide for Oklahoma County and Tulsa County. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREIWES - Kanye West (Independent)
+G20PREISIM - Jade Simmons (Independent)
+G20PREIPIE - Brock Pierce (Independent)
+
+G20USSRINH - Jim Inhofe (Republican Party)
+G20USSDBRO - Abby Broyles (Democratic Party)
+G20USSLMUR - Robert Murphy (Libertarian Party)
+G20USSIFAR - Joan Farr (Independent)
+G20USSINES - A.D. Nesbit (Independent)
+
+G20COCRHIE - Todd Hiett (Republican Party)
+G20COCLHAG - Todd Hagopian (Libertarian Party)
+
+
+Oregon
+------
+Election results from the Oregon Secretary of State via OpenElections (https://github.com/openelections/openelections-data-or/). Results from Polk, Tillamook, Wallowa, and Wasco counties were corrected with the respective county canvass reports.
+
+Precinct shapefiles for the following counties were provided by the respective county governments: Benton, Clatsop, Columbia, Coos, Crook, Curry, Deschutes, Douglas, Harney, Hood River, Jackson, Josephine, Klamath, Lane, Linn, Malheur, Morrow, Multnomah, Polk, Sherman, Tillamook, Umatilla, Union, Wallowa, Wasco, Yamhill.
+
+Precinct shapefiles for the following counties were provided by the Oregon Secretary of State: Jefferson, Lane, Marion. Several gaps in the Marion County shapefile were assigned based on the Precinct Split Summary Report.
+
+Precinct shapefiles for Clackamas and Washington were provided by the Metro Regional Government Data Resource Center.
+
+Precinct boundaries for Grant County and Wheeler County are defined by school district boundaries. Precinct shapefiles were produced to match PDF maps provided by the respective counties using the 2016 Oregon Education Boundaries shapefile obtained from the Oregon Spatial Data Library.
+
+Precinct shapefiles for the following counties were produced based on PDF maps provided by the respective counties: Baker, Gilliam, Lake, Lincoln. Boundaries defined by the PLSS grid were produced with the Oregon Public Land Survey Quarter-Quarter Reference Grid shapefile obtained from the Oregon Spatial Data Library. Municipal boundaries were produced from the Oregon Department of Transportion 2016 City Limits shapefile obtained from the Oregon Spatial Data Library. Street boundaries were produced from the U.S. Census Bureau census block shapefiles.
+
+PDF maps obtained from Lake County are approximate precinct boundaries drawn on the PLSS grid for county precincts and on the street map for Lakeview city precincts. These boundaries were adjusted to match address range assignments in the Lake County Address Library Report which serves as the legal definition of the precincts according to the Lake County Clerk. Precinct divisions across roads that span multiple rural precincts are generally defined by zip codes. Address ranges were further identified based on the Lake County tax lot parcel viewer.
+
+Rural precinct boundaries in the shapefiles provided by Coos County and Union County were revised to match the updated PLSS cadastral grid in the Oregon GIS Framework obtained from the Oregon Spatial Data Library.
+
+Municipal precinct boundaries in the following counties were edited to match city limits in effect for the November 2020 general election: Coos, Deschutes, Douglas, Jefferson, Malheur, Marion, Tillamook, Umatilla, Washington, Yamhill.
+
+Precinct numbers in the Columbia County, Josephine County, and Wallowa County shapefiles were edited to match the Oregon Secretary of State voter file.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Pacific Green Party)
+G20PREPHUN - Dario Hunter (Progressive Party)
+G20PREOWRI - Write-in Votes
+
+G20USSDMER - Jeff Merkley (Democratic Party, Independent Party and Working Family Party (fusion candidate))
+G20USSRPER - Jo Rae Perkins (Republican Party)
+G20USSLDYE - Gary Dye (Libertarian Party)
+G20USSGTAH - Ibrahim A. Taher (Pacific Green Party and Progressive Party (fusion candidate))
+G20USSOWRI - Write-in Votes
+
+G20ATGDROS - Ellen Rosenblum (Democratic Party, Independent Party and Working Family Party (fusion candidate))
+G20ATGRCRO - Michael Cross (Republican Party)
+G20ATGLHED - Lars D. H. Hedbor (Libertarian Party)
+G20ATGOWRI - Write-in Votes
+
+G20SOSDFAG - Shemia Fagan (Democratic Party and Working Family Party (fusion candidate))
+G20SOSRTHA - Kim Thatcher (Republican Party and Independent Party (fusion candidate))
+G20SOSLMAR - Kyle Markley (Libertarian Party)
+G20SOSGPAR - Nathalie Paravicini (Pacific Green Party and Progressive Party (fusion candidate))
+G20SOSOWRI - Write-in Votes
+
+G20TREDREA - Tobias Read (Democratic Party and Working Family Party (fusion candidate))
+G20TRERGUD - Jeff Gudman (Republican Party)
+G20TREIHEN - Chris Henry (Independent Party, Pacific Green Party and Progressive Party (fusion candidate))
+G20TRECMAR - Michael P. Marsh (Constitution Party)
+G20TREOWRI - Write-in Votes
+
+
+Rhode Island
+------------
+Election results from Rhode Island Board of Elections (https://www.ri.gov/election/results/2020/general_election/data/)
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program final release.
+
+Several precincts in Providence were aligned with the city ward shapefile.
+
+Limited ballots were reported by township. Federal ballots were reported by congressional district. These were distributed by candidate to precincts based on their share of the precinct-level vote for the given reporting unit.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREOFUE - Roque "Rocky" De La Fuente (Alliance Party)
+G20PREOLAR - Gloria La Rive (Socialism and Liberation Party)
+G20PREOCAR - Brian Carroll (American Solidarity Party)
+G20PREOWRI - Write-in Votes
+
+G20USSDREE - John F. Reed (Democratic Party)
+G20USSRWAT - Allen R. Waters (Republican Party)
+G20USSOWRI - Write-in Votes
+
+
+South Carolina
+--------------
+Election results from South Carolina State Election Commission (https://www.enr-scvotes.org/SC/106502/Web02-state.264691/#/). Precinct shapefile provided by Victor Frontroth at the Mapping Section of the South Carolina Revenue and Fiscal Affairs Office.
+
+Provisional and failsafe ballots were reported countywide. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+In Jasper County the SC legislature enacted Hardeeville 3 and Okatie 2 for the 2020 elections. However, if in use they were not reported separately so Hardeeville 1/3 and Okatie 1/2 were merged in the shapefile.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREAFUE - Roque Rocky De La Fuente (Alliance Party)
+
+G20USSRGRA - Lindsey Graham (Republican Party)
+G20USSDHAR - Jaime Harrison (Democratic Party)
+G20USSCBLE - Bill Bledsoe (Constitution Party)
+G20USSOWRI - Write-in Votes
+
+
+Tennessee
+---------
+Election results from the Tennessee Secretary of State (https://sos.tn.gov/elections/results#2020). Precinct shapefile primarily from the Tennessee Comptroller of the Treasury (https://apps.cot.tn.gov/DPAMaps/Redistrict/Counties). Hamilton County replaced with a shapefile from the county GIS department.
+
+Davidson reported absentee ballots countywide. These were distributed by candidate to precincts based on their share of the precinct-level reported vote.
+
+The following modifications were made to the shapefile to reflect precinct changes prior to the 2020 general election.
+
+Coffee: Split 13-2/13-4
+Hamblen: Merge 10-1/10-2
+Hardin: Merge 1-1/1-2, 2-1/2-2, 3-1/3-2, 4-1/4-2
+Henderson: Merge Christian Chapel/Darden
+Maury: Split Northfield/Spring Hill
+McNairy: Merge Cypress/Ramer
+Polk: Merge Cooper Basin/Ducktown, Parksville/Shiloh
+Sumner: Split Howard ES/Station Camp HS
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREIWES - Kanye West (Independent)
+G20PREIBLA - Don Blankenship (Independent)
+G20PREIKEN - Alyson Kennedy (Independent)
+G20PREILAR - Gloria La Riva (Independent)
+G20PREIFUE - Roque "Rocky" De La Fuente (Independent)
+
+G20USSRHAG - Bill Hagerty (Republican Party)
+G20USSDBRA - Marquita Bradshaw (Democratic Party)
+G20USSIHOO - Steven J. Hooper (Independent)
+G20USSISTA - Eric William Stansberry (Independent)
+G20USSIMCL - Elizabeth McLeod (Independent)
+G20USSIJAM - Aaron James (Independent)
+G20USSIHIL - G. Dean Hill (Independent)
+G20USSIGRU - Jeffrey Alan Grunau (Independent)
+G20USSIHEN - Ronnie Henley (Independent)
+G20USSIFAP - Yomi "Fapas" Faparusi Sr. (Independent)
+
+
+Texas
+-----
+Election results and precinct shapefile from the Texas Legislative Council (https://data.capitol.texas.gov/). The precinct data files available for download at the TXLC Capitol Data Portal are allocated to Census VTD geography based on Voting Age Population from the 2010 Census. The unallocated precinct results and registration statistics were generously provided by TXLC staff to instead merge with the precinct boundaries.
+
+The shapefile includes unallocated Voter Registration (VR) and Spanish Surname Voter Registration (SSVR) for the November 2020 general election. Any VR data analysis of these unallocated precinct results should utilize this unallocated VR data rather than the VR data allocated by VTD available for download at CDP. SSVR is denoted as a percentile of total VR for each precinct.
+
+Precinct results for the following counties were replaced in whole or in part with county source files or with precinct data provided via the Secretary of State: Andrews, Bee, Borden, Brazos, Chambers, Coryell, Dawson, Deaf Smith, Donley, Fayette, Hansford, Harrison, Hood, Hudspeth, Knox, Lamar, Loving, Mason, Maverick, Reeves, Starr, Tom Green, Trinity, Waller, Wilbarger, Willacy, Williamson.
+
+Precinct 4/6 in Gonzales was merged prior to 2008. Precinct 5/6 in Hood was merged prior to 2012. Gonzales 4 was the city of Nixon while Gonzales 6 was the surrounding county precinct. Hood 5 and 6 were divided by US Hwy 377. However, they reappear as separate line items in the 2020 general election county reports. Since these are otherwise regarded as unitary precincts and it is unclear that the separate 2020 line items correspond to the obsolete boundaries the results for Gonzales 4/6 and Hood 5/6 were combined for this shapefile.
+
+Brazos 84 and 85 were single parcel precincts created where new construction required a distinct ballot style. Each precinct cast 2 Republican votes for all statewide races. For this shapefile the votes for Brazos 84 and 85 were added to Brazos 82 and Brazos 2 respectively based on voter registration address.
+
+Precinct totals for the counties listed below do not add up to the Secretary of State County Canvass for one or more offices. Most commonly this is due to omission of some ballots counted after election day from either the county precinct reports or from summary results certified to the state. In some cases these involve data entry errors where numbers were transposed, dropped, or added in one or more precincts or in countywide summations. In some cases corrections to the initial precinct results were made after the certification deadline.
+
+Anderson, Armstrong, Cass, Cochran, Cottle, Fayette, Frio, Gillespie, Hamilton, Hansford, Hood, Howard, Hudspeth, Irion, Jasper, Kent, Kleberg, Lamar, Liberty, Live Oak, Lynn, Maverick, Morris, Motley, Presidio, Reeves, Rockwall, Shackelford, Starr, Terrell, Travis, Upton, Val Verde, Van Zandt, Ward, Webb, Willacy.
+
+Most of the discrepancies are in single digits or low double digits. The exceptions are a 140 vote overreport from Cass for David Collins (G) for U.S. Senate, a 54 vote underreport from Van Zandt for Jane Bland (R) for Supreme Court Justice 6, a 100 vote underreport from Cochran for Staci Williams (D) for Supreme Court Justice 7, a 100 vote underreport from Travis for Jeff Boyd (R) for Supreme Court Justice 7, a 274 vote overreport from Reeves for Elizabeth Frizell for Criminal Appeals Judge 3, a 286 vote underreport from Reeves for Kevin Yeary (R) for Criminal Appeals Judge 4.
+
+Hood had an underreport of 171-176 Republican votes and 45-54 Democratic votes for all statewide races. Kleberg had an underreport of 56-71 Republican votes and 55-67 Democratic votes for all statewide races. Presidio had an underreport of 58 votes for Chrysta Casta�eda (D) for railroad commissioner, 55 votes for Amy Meachum (D) for Supreme Court Chief Justice, and 55 votes for Kathy Cheng (D) for Supreme Court Justice 6.
+
+Votes reported countywide were distributed by candidate to precincts based on the precinct-level reported vote. This includes all early ballots in Collingsworth and Hudspeth. Early ballots for precincts 101/102, 301/303 in Donley. Mail ballots in Borden and Kimble. Federal and/or limited ballots in Bee, Bexar, Brazos, Chambers, Coryell, Harrison, Hays, and Jefferson. Provisional and military ballots in Bowie, Reeves, and Trinity.
+
+The Mason County courthouse burned down in February 2021. The only known surviving precinct results are on a spreadsheet with an incorrect formula in place of the election day results. This was filed with the Secretary of State in 2020 and the TXLC consequently allocated all votes countywide. For this shapefile the election day votes were instead calculated as the difference between the early votes and the countywide summary totals and then distributed by candidate to precincts based on the precinct-level early vote.
+
+In Williamson County a vendor programming error combined in person early votes to a handful of precincts for the initial results. The in person early votes were subsequently hand counted so as to be assigned to their correct precincts. A batch of about 250 ballots was not recounted before the certification deadline and thus reported only in countywide summary results. For this shapefile those in person early votes were distributed by candidate to precincts based on the precinct-level reported vote.
+
+San Saba did not file a precinct report with the Secretary of State as required by the Texas election code and asserted they are unable to locate any precinct results for the 2020 general election. The countywide summary totals were distributed by candidate to precincts based on the 2018 precinct-level reported vote.
+
+The following counties reported combined results for some precincts. As these specific precincts align with VTD boundaries the combined results were replaced with the VTD allocated precinct results from the TXLC Capitol Data Portal. Any data corrections or distributions noted above were transferred accordingly.
+
+Austin: 207/208
+Brooks: 3/3S
+Kent: 201/202
+Kleberg: 33/34
+Lamar: 1A3B/1D/1E7C, 1B/1I, 1F/1G, 2B2A/2C3A, 4C/4E
+Lamb: 7/8
+Lynn: 1/5, 2/8, 3/10, 4/11
+McMullen: 2A/2B, 4A/4B
+Newton: 11/13/21
+Real: 4/7
+Red River: 1/11, 17/18, 27/30
+
+G20VR - Voter registration
+G20SSVR - Spanish surname voter registration
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREOWRI - Write-in Votes
+
+G20USSRCOR - John Cornyn (Republican Party)
+G20USSDHEG - Mary "MJ" Hegar (Democratic Party)
+G20USSLMCK - Kerry Douglas McKennon (Libertarian Party)
+G20USSGCOL - David B. Collins (Green Party)
+
+G20RRCRWRI - James "Jim" Wright (Republican Party)
+G20RRCDCAS - Chrysta Casta�eda (Democratic Party)
+G20RRCLSTE - Matt Sterett (Libertarian Party)
+G20RRCGGRU - Katija "Kat" Gruene (Green Party)
+
+G20SSCRHEC - Nathan Hecht (Republican Party)
+G20SSCDMEA - Amy Clark Meachum (Democratic Party)
+G20SSCLASH - Mark Ash (Libertarian Party)
+
+G20SSCRBLA - Jane Bland (Republican Party)
+G20SSCDCHE - Kathy Cheng (Democratic Party)
+
+G20SSCRBOY - Jeff Boyd (Republican Party)
+G20SSCDWIL - Staci Williams (Democratic Party)
+G20SSCLSTR - William Bryan Strange III (Libertarian Party)
+
+G20SSCRBUS - Brett Busby (Republican Party)
+G20SSCDTRI - Gisela D. Triana (Democratic Party)
+G20SSCLOXF - Tom Oxford (Libertarian Party)
+
+G20SCCRRIC - Bert Richardson (Republican Party)
+G20SCCDFRI - Elizabeth Davis Frizell (Democratic Party)
+
+G20SCCRYEA - Kevin Patrick Yeary (Republican Party)
+G20SCCDCLI - Tina Clinton (Democratic Party)
+
+G20SCCRNEW - David Newell (Republican Party)
+G20SCCDBIR - Brandon Birmingham (Democratic Party)
+
+
+Utah
+----
+Election results from OpenElections (https://github.com/openelections/openelections-data-ut/tree/master/2020).
+Precinct shapefile from Utah Automated Geographic Reference Center (https://gis.utah.gov/data/political/voter-precincts/).
+
+The shapefile from the AGRC is of subprecincts, breaking down precincts in cases of district splits. In some cases, results are reported at the subprecinct level, in most cases, they weren't, so merging was done where necessary.
+
+Emery County - 52 "canvas votes" were distributed to precincts.
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRECBLA - Don Blankenship (Constitution Party)
+G20PREIPIE - Brock Pierce (Unaffiliated)
+G20PREIWES - Kanye West (Unaffiliated)
+G20PREIMCH - Joe McHugh (Unaffiliated)
+G20PREILAR - Gloria La Riva (Unaffiliated)
+G20PREOWRI - Write-in Votes
+
+G20GOVRCOX - Spencer J. Cox (Republican Party)
+G20GOVDPET - Chris Peterson (Democratic Party)
+G20GOVLCOT - Daniel Rhead Cottam (Libertarian Party)
+G20GOVADUE - Greg Duerden (Independent American Party)
+G20GOVOWRI - Write-in Votes
+
+G20ATGRREY - Sean D. Reyes (Republican Party)
+G20ATGDSKO - Greg Skordas (Democratic Party)
+G20ATGLBAU - Rudy J. Bautista (Libertarian Party)
+
+G20AUDRDOU - John "Frugal" Dougall (Republican Party)
+G20AUDCOST - Jeffrey L. Ostler (Constitution Party)
+G20AUDUFAB - Brian L. Fabbi (United Utah Party)
+
+G20TRERDAM - David Damschen (Republican Party)
+G20TRELSPE - Joseph Speciale (Libertarian Party)
+G20TRECPRO - Richard Proctor (Constitution Party)
+
+
+Vermont
+-------
+Election results from the Vermont Secretary of State (https://electionarchive.vermont.gov/)
+Precinct shapefile from the U.S. Census Bureau's 2020 Redistricting Data Program
+
+The Census VTD shapefile features city wards. However, precinct boundaries for state and federal elections are not based on city wards. They are instead defined by legislative districts wherever they cross municipal boundaries. Therefore, city wards were merged in the shapefile and cities or townships were instead split into precincts wherever necessary using the state legislative district shapefile.
+
+Vermont has four unorganized towns whose residents cast votes in neighboring towns. These were distributed back based on voting age population in the 2019 American Community Survey as 2020 Census results are not yet available at the township level. (Averill-Canaan, Buel's Gore-Huntington, Ferdinand-Brighton, Glastenbury-Shaftsbury.)
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PREIWES - Kanye West (Independent)
+G20PREOOTH - Other Candidates on Ballot
+G20PREOSAN - Bernie Sanders (Write-in)
+G20PREOWRI - Other Write-in Candidates
+
+G20HALDWEL - Peter Welch (Democratic Party)
+G20HALDRBE - Miriam Berry (Republican Party)
+G20HALCHEL - Christopher Helali (Communisty Party)
+G20HALIBEC - Peter R. Becker (Independent)
+G20HALIHOR - Marcia Horne (Independent)
+G20HALIORR - Shawn Orr (Independent)
+G20HALITRU - Jerry Trudell (Independent)
+G20HALOWRI - Write-in Votes
+
+G20GOVDZUC - David Zuckerman (Progressive Party and Democratic Party (fusion candidate))
+G20GOVRSCO - Phil Scott (Republican Party)
+G20GOVIHOY - Kevin Hoyt (Independent)
+G20GOVTPEY - Emily Peyton (Truth Matters Pary)
+G20GOVIWHI - Erynn Hazlett Whitney (Independent)
+G20GOVIBIL - Wayne Billado III (Independent)
+G20GOVIDEV - Michael Devost (Independent)
+G20GOVUDIC - Charly Dickerson (Unaffiliated)
+G20GOVOWRI - Write-in Votes
+
+G20LTGDGRA - Molly Gray (Democratic Party)
+G20LTGRMIL - Scott Milne (Republican Party)
+G20LTGPERI - Cris Ericson (Progressive Party)
+G20LTGIBIL - Wayne Billado III (Independent)
+G20LTGBCOR - Ralph Corbo (Banigh the F-35s Party)
+G20LTGOWRI - Write-in Votes
+
+G20ATGDDON - T.J. Donovan (Democratic Party)
+G20ATGRPAI - H. Brooke Paige (Republican Party)
+G20ATGPERI - Cris Ericson (Progressive Party)
+G20ATGOWRI - Write-in Votes
+
+G20SOSDCON - Jim Condos (Democratic Party)
+G20SOSRPAI - H. Brooke Paige (Republican Party)
+G20SOSPERI - Cris Ericson (Progressive Party)
+G20SOSISMI - Pamala Smith (Independent)
+G20SOSOWRI - Write-in Votes
+
+G20TREDPEA - Beth Pearce (Democratic Party)
+G20TRERBRA - Barolyn Whitney Branagan (Republican Party)
+G20TREPERI - Cris Ericson (Progressive Party)
+G20TREIWRI - Alex Wright (Independent)
+G20TREOWRI - Write-in Votes
+
+G20AUDOHOF - Doug Hoffer (Democratic Party and Republican Party (fusion candidate))
+G20AUDPERI - Cris Ericson (Progressive Party)
+G20AUDOWRI - Write-in Votes
+
+
+Washington
+----------
+Election results and precinct shapefile from the Washington Secretary of State (https://www.sos.wa.gov/elections/research/election-results-and-voters-pamphlets.aspx)
+
+In Kittitas County the votes reported as Ellensburg 28 in the Secretary of State results are actually those of Cle Elum 2. Ellensburg 28 was not a distinct voting precinct for the 2020 general election.
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREGHAW - Howie Hawkins (Green Party)
+G20PRESLAR - Gloria La Riva (Socialism and Liberation Party)
+G20PRESKEN - Alyson Kennedy (Socialist Workers Party)
+G20PREOWRI - Write-in Votes
+
+G20GOVDINS - Jay Inslee (Democratic Party)
+G20GOVRCUL - Loren Culp (Republican Party)
+G20GOVOWRI - Write-in Votes
+
+G20LTGDHEC - Denny Heck (Democratic Party)
+G20LTGDLII - Marko Liias (Democratic Party)
+G20LTGOWRI - Write-in Votes
+
+G20SOSDTAR - Gael Tarleton (Democratic Party)
+G20SOSRWYM - Kim Wyman (Republican Party)
+G20SOSOWRI - Write-in Votes
+
+G20TREDPEL - Mike Pellicciotti (Democratic Party)
+G20TRERDAV - Duane A. Davidson (Republican Party)
+G20TREOWRI - Write-in Votes
+
+G20AUDDMCC - Pat (Patrice) McCarthy (Democratic Party)
+G20AUDRLEY - Chris Leyba (Republican Party)
+G20AUDOWRI - Write-in Votes
+
+G20ATGDFER - Bob Ferguson (Democratic Party)
+G20ATGRLAR - Matt Larkin (Republican Party)
+G20ATGOWRI - Write-in Votes
+
+G20LANDFRA - Hilary Franz (Democratic Party)
+G20LANRPED - Sue Kuehl Pederson (Republican Party)
+G20LANOWRI - Write-in Votes
+
+G20INSDKRE - Mike Freidler (Democratic Party)
+G20INSRPAT - Chirayu Avinash Patel (Republican Party)
+G20INSOWRI - Write-in Votes
+
+
+Wisconsin
+---------
+Election results and precinct shapefile from Wisconsin State Legislature Open Data Portal (https://data-ltsb.opendata.arcgis.com/)
+
+The following wards had been added due to annexations prior to the 2020 general election. They appear in the 2020 election results but not in the LTSB 2020 shapefile. They were added using the 2021 municipal wards shapefile. Any associated election results were redistributed based on the number of registered voters by ward as of 11/01/2020.
+
+Chippewa: Chippewa Falls 5A
+Dane: DeForest 23
+Eau Claire: Eau Claire 80, 81
+Kenosha: Kenosha 116
+Manitowoc: Manitowoc 32
+Sauk: Prairie du Sac 5
+Wood: Marshfield 25, 26; Wisconsin Rapids 26, 27, 29
+
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PRECBLA - Don Blankenship (Constitution Party)
+G20PREICAR - Brain Carroll (Independent)
+G20PREOHAW - Howie Hawkins (Independent write-in)
+G20PREOWES - Kanye West (Independent write-in)
+G20PREOLAR - Gloria La Riva (Independent write-in)
+G20PREOCHA - Mark Charles (Independent write-in)
+G20PREOSIM - Jade Simmons (Independent write-in)
+G20PREOWEL - Kasey Wells (Independent write-in)
+G20PREOBOD - R19 Boddie (Independent write-in)
+G20PREOWRI - Other Write-in Votes
+
+
+Wyoming
+-------
+Election results from Wyoming Secretary of State (https://soswy.state.wy.us/Elections/ElectionResults.aspx)
+Precinct shapefile primarily from the U.S. Census Bureau's 2020 Redistricting Data Program final release. The Fremont County shapefile was provided by the Fremont County Assessor.
+
+The following modifications were made to recreate the 2020 precinct boundaries.
+
+Albany: Consolidate 8 county VTDs into 5 precincts, 18 city VTDs into 8 precincts
+Campbell: Align 1-27/24-1 with Gillette municipal boundary
+Carbon: Remove district splits for 1-2, 5-1, 6-1, 7-1, 11-2, 12-1, 13-1
+Goshen: Align VTDs with legislative districts and 2012 redistricting map
+Lincoln: Merge Kemmerer 01-01/01-02/01-03
+Platte: Merge Y-O Ranch into Wheatland Rural
+Sheridan: Remove district splits for 01-01, 02-01, 02-03, 03-03, 11-03
+Sweetwater: Align wards and precincts countywide with 2012 legislative redistricting
+Uinta: Remove 02-01 district split; Split 01-03/01-04; Merge 04-01/04-03
+Weston: Adjust 5-2/5-3 boundary to match 2012 realignment
+
+G20PRERTRU - Donald J. Trump (Republican Party)
+G20PREDBID - Joseph R. Biden (Democratic Party)
+G20PRELJOR - Jo Jorgensen (Libertarian Party)
+G20PREIPIE - Brock Pierce (Independent)
+G20PREOWRI - Write-in Votes
+
+G20USSRLUM - Cynthia M. Lummis (Republican Party)
+G20USSDDAV - Merav Ben David (Democratic Party)
+G20USSOWRI - Write-in Votes
+
+G20HALRCHE - Liz Cheney (Republican Party)
+G20HALDBUL - Lynnette Grey Bull (Democratic Party)
+G20HALLBRU - Richard Brubaker (Libertarian Party)
+G20HALCHAG - Jeff Haggit (Constitution Party)
+G20HALOWRI - Write-in Votes
+
+
+End Matter
+----------
+These data are released under a Creative Commons Attribute license (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+
+THE DATA ARE PROVIDED �AS IS� WITHOUT WARRANTY OF ANY KIND. WE MAKE NO AND DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT, WITH RESPECT TO THESE DATA. WE MAKE NO REPRESENTATIONS OR WARRANTIES AS TO THE QUALITY, SUITABILITY OR ADEQUACY OF THESE DATA FOR ANY PURPOSE OR USE.
+Previewers originally developed by QDR and maintained at https://github.com/GlobalDataverseCommunityConsortium/dataverse-previewers. Feedback and contributions welcome.
