@@ -29,8 +29,8 @@
     ```
 
 8. Add the state's precursor config to `./config/precursors.py`.
-
-9. Run the following, where XX is the state's FIPS code:
+9. Add any new copy to the Kitchensink doc.
+10. Run the following, where XX is the state's FIPS code:
 
     ```python
     from formatting.overall_commands import rebake_single_state
@@ -38,4 +38,4 @@
     ff = rebake_single_state('XX')
     ```
 
-10. Finally, update your data on S3 using the `just upload_data` command.
+11. Finally, update your data on S3 using the `just upload_data` command.
