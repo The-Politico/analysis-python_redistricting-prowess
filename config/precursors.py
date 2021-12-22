@@ -10,6 +10,60 @@ DISTRICT_PRECURSORS = {
     },
     "ak": {"00": "00"},
     "ar": {"01": "01", "02": "02", "03": "03", "04": "04"},
+    "ca": {
+        "01": "01",
+        "02": "02",
+        "03": "04",  # Deliberate swap.
+        "04": "03",  # Deliberate swap.
+        "05": "16",  # Deliberate swap.
+        "06": "06",
+        "07": "07",
+        "08": "05",  # Deliberate swap.
+        "09": "09",
+        "10": "11",  # Deliberate swap.
+        "11": "12",  # Deliberate swap.
+        "12": "13",  # Deliberate swap.
+        "13": "10",  # Deliberate swap.
+        "14": "15",  # Deliberate swap.
+        "15": "14",  # Deliberate swap.
+        "16": "18",  # Deliberate swap.
+        "17": "17",
+        "18": "19",  # Deliberate swap.
+        "19": "20",  # Deliberate swap.
+        "20": "23",  # Deliberate swap.
+        "21": "22",  # Deliberate swap.
+        "22": "21",  # Deliberate swap.
+        "23": "08",  # Deliberate swap.
+        "24": "24",
+        "25": "36",  # Deliberate swap.
+        "26": "26",
+        "27": "25",  # Deliberate swap.
+        "28": "27",  # Deliberate swap.
+        "29": "29",
+        "30": "28",  # Deliberate swap.
+        "31": "32",  # Deliberate swap.
+        "32": "30",  # Deliberate swap.
+        "33": "31",  # Deliberate swap.
+        "34": "34",
+        "35": "35",
+        "36": "33",  # Deliberate swap.
+        "37": "37",
+        "38": "38",
+        "39": "41",  # Deliberate swap.
+        "40": "48",  # Deliberate swap.
+        "41": "42",  # Deliberate swap.
+        "42": "47",  # Deliberate swap.
+        "43": "43",
+        "44": "44",
+        "45": "39",  # Deliberate swap.
+        "46": "46",
+        "47": "45",  # Deliberate swap.
+        "48": "50",  # Deliberate swap.
+        "49": "49",
+        "50": "52",  # Deliberate swap.
+        "51": "53",  # Deliberate swap.
+        "52": "51",  # Deliberate swap.
+    },
     "co": {
         "01": "01",
         "02": "02",
