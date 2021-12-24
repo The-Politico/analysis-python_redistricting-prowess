@@ -10,6 +10,17 @@ DISTRICT_PRECURSORS = {
     },
     "ak": {"00": "00"},
     "ar": {"01": "01", "02": "02", "03": "03", "04": "04"},
+    "az": {
+        "01": "06",  # Deliberate swap.
+        "02": "01",  # Deliberate swap.
+        "03": "07",  # Deliberate swap.
+        "04": "09",  # Deliberate swap.
+        "05": "05",
+        "06": "02",  # Deliberate swap.
+        "07": "03",  # Deliberate swap.
+        "08": "08",
+        "09": "04",  # Deliberate swap.
+    },
     "ca": {
         "01": "01",
         "02": "02",
