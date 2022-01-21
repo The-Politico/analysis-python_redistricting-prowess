@@ -26,15 +26,15 @@ DISTRICT_PRECURSORS = {
         "02": "02",
         "03": "04",  # Deliberate swap.
         "04": "03",  # Deliberate swap.
-        "05": "16",  # Deliberate swap.
-        "06": "06",
-        "07": "07",
+        "05": "10",  # Deliberate swap.
+        "06": "07",  # Deliberate swap.
+        "07": "06",  # Deliberate swap.
         "08": "05",  # Deliberate swap.
         "09": "09",
         "10": "11",  # Deliberate swap.
         "11": "12",  # Deliberate swap.
         "12": "13",  # Deliberate swap.
-        "13": "10",  # Deliberate swap.
+        "13": "16",  # Deliberate swap.
         "14": "15",  # Deliberate swap.
         "15": "14",  # Deliberate swap.
         "16": "18",  # Deliberate swap.
@@ -61,14 +61,14 @@ DISTRICT_PRECURSORS = {
         "37": "37",
         "38": "38",
         "39": "41",  # Deliberate swap.
-        "40": "48",  # Deliberate swap.
+        "40": "45",  # Deliberate swap.
         "41": "42",  # Deliberate swap.
         "42": "47",  # Deliberate swap.
         "43": "43",
         "44": "44",
         "45": "39",  # Deliberate swap.
         "46": "46",
-        "47": "45",  # Deliberate swap.
+        "47": "48",  # Deliberate swap.
         "48": "50",  # Deliberate swap.
         "49": "49",
         "50": "52",  # Deliberate swap.
@@ -111,10 +111,10 @@ DISTRICT_PRECURSORS = {
     "il": {
         "01": "01",
         "02": "02",
-        "03": "03",
+        "03": "06",  # Deliberate swap.
         "04": "04",
         "05": "05",
-        "06": "06",
+        "06": "03",  # Deliberate swap.
         "07": "07",
         "08": "08",
         "09": "09",
@@ -162,7 +162,7 @@ DISTRICT_PRECURSORS = {
     "me": {"01": "01", "02": "02"},
     "mi": {
         "01": "01",
-        "02": "02",
+        "02": "04",  # Deliberate swap.
         "03": "03",
         "04": "06",  # Deliberate swap.
         "05": "07",  # Deliberate swap.
@@ -172,8 +172,8 @@ DISTRICT_PRECURSORS = {
         "09": "10",  # Deliberate swap.
         "10": "09",  # Deliberate swap.
         "11": "11",
-        "12": "14",  # Deliberate swap.
-        "13": "13",
+        "12": "13",  # Deliberate swap.
+        "13": "14",
     },
     "mt": {},
     "nc": {
@@ -187,7 +187,7 @@ DISTRICT_PRECURSORS = {
         "07": "13",  # Deliberate swap.
         "08": "09",  # Deliberate swap.
         "09": "12",  # Deliberate swap.
-        "10": "06",  # Deliberate swap.
+        "11": "06",  # Deliberate swap.
         "12": "10",  # Deliberate swap.
         "13": "05",  # Deliberate swap.
         "14": "11",  # Deliberate swap.
