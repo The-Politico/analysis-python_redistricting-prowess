@@ -183,6 +183,12 @@ DISTRICT_PRECURSORS = {
         "12": "13",  # Deliberate swap.
         "13": "14",
     },
+    "ms": {
+        "01": "01",
+        "02": "02",
+        "03": "03",
+        "04": "04",
+    },
     "mt": {},
     "nc": {
         # Allan's scheme (using for now).
