@@ -101,6 +101,10 @@ DISTRICT_PRECURSORS = {
         "13": "13",
         "14": "14",
     },
+    "hi": {
+        "01": "01",
+        "02": "02",
+    },
     "ia": {
         "01": "02",  # Deliberate swap.
         "02": "01",  # Deliberate swap.
