@@ -15,7 +15,17 @@ Political and demographic analysis of redistricting, the POLITICO way.
 
 ## Getting started
 
-First, copy down all the "raw data" files from S3 to your local repo.
+First, clone down this repo and install all dependencies.
+
+```sh
+git clone https://github.com/The-Politico/analysis-python_redistricting-prowess.git
+
+pipenv install --dev
+```
+
+You'll then need to copy all the "raw data" files from S3 to your local repo. (This assumes you have access to the "interactives AWS" account.)
+
+The following command will take a while to execute. When it's done, you should have the latest shapefiles and data in your `./raw_data/` directory.
 
 ```sh
 just download_data
